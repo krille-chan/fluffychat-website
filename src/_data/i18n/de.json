@@ -24,5 +24,9 @@
     "feature8_text": "Erstelle deine eigenen Sticker-Sets und teile sie mit Freunden. Du kannst sie sogar als Inline-Emojis verwenden.",
     "feature9_title": "Kompatibel",
     "feature9_text_html": "FluffyChat ist kompatibel mit anderen Clients wie <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> oder <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
-    "language_title": "Sprache"
+    "language_title": "Sprache",
+    "tagline_html": "Der knuffigste Messenger in [matrix]",
+    "@tagline_html": {
+        "description": "Keep the string [matrix] untranslated. It will be replaced with a Link."
+    }
 }
