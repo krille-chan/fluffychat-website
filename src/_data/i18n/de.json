@@ -1,3 +1,8 @@
 {
-    "changelog": "Änderungsprotokoll"
+    "changelog": "Änderungsprotokoll",
+    "impressumTitle": "Impressum",
+    "contactTitle": "Kontakt",
+    "emailLabel": "E‑Mail:",
+    "emailLinkText": "Hier klicken",
+    "matrixLabel": "Matrix:"
 }

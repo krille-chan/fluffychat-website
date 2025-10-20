@@ -1,0 +1,9 @@
+{
+    "name": "Christian Kußowski",
+    "address": {
+        "line1": "Prenzlauer Allee 221",
+        "line2": "10405 Berlin"
+    },
+    "email_lookup": "https://keys.mailvelope.com/pks/lookup?op=get&search=christian-pauly%40posteo.de",
+    "matrix_handle": "@krille:janian.de"
+}
