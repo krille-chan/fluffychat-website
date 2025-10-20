@@ -1,6 +1,13 @@
 ---
 title: Impressum
 layout: "layout.njk"
+pagination:
+  data: i18n.languages
+  size: 1
+  alias: lang
+eleventyComputed:
+  permalink: "{{ lang }}/impressum/index.html"
+  lang: "{{ lang }}"
 ---
 
 <div class="container text-center p-32">
