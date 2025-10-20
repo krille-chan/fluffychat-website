@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+h2 {
+    border-bottom: 1px solid lightgray;
+}
+
+li {
+    margin: 0px;
+    font-size: 0.8em;
+}
+
+li::marker {
+    color: gray;
+}

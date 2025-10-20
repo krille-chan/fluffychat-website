@@ -1,0 +1,85 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FluffyChat Official Website | {{ title }}</title>
+        <meta name="identifier-url" content="https://fluffychat.im"/>
+        <meta name="title" content="FluffyChat Official Website"/>
+        <meta name="description" content="The cutest messenger in the Matrix network"/>
+        <meta name="abstract" content="FluffyChat is the cutest messenger in the Matrix network"/>
+        <meta name="keywords" content="FluffyChat, Matrix, Flutter, App"/>
+        <meta name="author" content="Krille Fear"/>
+        <meta name="revisit-after" content="15"/>
+        <meta name="language" content="EN"/>
+        <meta name="robots" content="All"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+        <link href="/assets/tailwind.css" rel="stylesheet">
+    </head>
+    <body
+        class="flex flex-col items-center min-h-screen w-full bg-gradient-to-t from-purple-200 to-blue-50 dark:from-purple-900
+            dark:to-slate-900"
+        style="font-family: 'Zen Kurenaido', sans-serif;">
+        <!--Header-->
+        <div class="w-full md:h-12 min-h-12 px-4 py-4 md:py-0 mb-8">
+            <nav class="flex flex-wrap h-full justify-center items-center space-x-6 w-full max-w-4xl m-auto">
+                <a href="/" class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">Home</a>
+                <a
+                    href="https://ko-fi.com/krille/posts"
+                    target="_blank"
+                    class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">Blog
+                </a>
+                <a href="/changelog" class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">Changelog</a>
+                <a
+                    href="https://github.com/krille-chan/fluffychat/wiki"
+                    class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">Wiki</a>
+                <div class="md:flex-grow"></div>
+                <a href='https://ko-fi.com/C1C86VN53' class=" hover:scale-110 transition-transform" target='_blank'><img
+                        height='36'
+                        style='border:0px;height:36px;'
+                        src='https://storage.ko-fi.com/cdn/kofi3.png?v=6'
+                        border='0'
+                        alt='Buy Me a Coffee at ko-fi.com'/>
+                </a>
+                <a href="https://troet.cafe/@krille" rel="me" class="m-2 hover:scale-110 transition-transform "><img src="/assets/mastodon.svg" class="h-7"/>
+                </a>
+            </nav>
+        </div>
+        {{ content | safe }}
+        <!--Footer-->
+        <div class="w-full flex justify-center">
+            <footer class="w-full text-center max-w-4xl p-4 text-slate-700 dark:text-slate-200">
+                <a class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm" href="/impressum">Impressum</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    href="https://github.com/krille-chan/fluffychat">Source Code</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    href="https://liberapay.com/KrilleChritzelius">Liberapay</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    href="https://github.com/krille-chan/fluffychat/blob/main/PRIVACY.md">Privacy</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    href="https://hosted.weblate.org/projects/fluffychat/">Translations</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    href="https://googlefonts.github.io/noto-emoji-animation/">Noto Animated Emojis</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    href="https://krille-chan.github.io">Created by Krille-chan</a>
+            </footer>
+        </div>
+    </body>
+</html>
