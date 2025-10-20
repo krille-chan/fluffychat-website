@@ -25,5 +25,13 @@
     "feature9_title": "Compatible",
     "feature9_text_html": "FluffyChat is compatible with any other <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> or <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
     "language_title": "Language",
-    "tagline_html": "The cutest messenger in [matrix]"
+    "tagline_html": "The cutest messenger in [matrix]",
+    "home": "Home",
+    "blog": "Blog",
+    "wiki": "Wiki",
+    "source_code": "Source Code",
+    "liberapay": "Liberapay",
+    "translations": "Translations",
+    "noto_emoji": "Noto Animated Emojis",
+    "created_by": "Created by Krille-chan"
 }
