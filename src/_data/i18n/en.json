@@ -23,5 +23,6 @@
     "feature8_title": "Stickers",
     "feature8_text": "Create your own sticker sets and share them with your friends. You can even use them as inline emojis.",
     "feature9_title": "Compatible",
-    "feature9_text_html": "FluffyChat is compatible with any other <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> or <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>."
+    "feature9_text_html": "FluffyChat is compatible with any other <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> or <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
+    "language_title": "Language"
 }

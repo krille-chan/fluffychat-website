@@ -7,7 +7,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>FluffyChat Official Website | {{ title }}</title>
+        <title>FluffyChat Official Website | {{ title }}</title>
         <meta name="identifier-url" content="https://fluffychat.im"/>
         <meta name="title" content="FluffyChat Official Website"/>
         <meta name="description" content="The cutest messenger in the Matrix network"/>
@@ -55,31 +55,37 @@
         <!--Footer-->
         <div class="w-full flex justify-center">
             <footer class="w-full text-center max-w-4xl p-4 text-slate-700 dark:text-slate-200">
-                <a class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm" href="/{{ lang }}/impressum">
-                Impressum</a>
+                <a class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm" href="/{{ lang }}/impressum">
+                    Impressum</a>
                 -
                 <a
-                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
                     href="https://github.com/krille-chan/fluffychat">Source Code</a>
                 -
                 <a
-                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
                     href="https://liberapay.com/KrilleChritzelius">Liberapay</a>
                 -
-                <a class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm" href="/{{ lang }}/privacy">
-                Privacy</a>
+                <a class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm" href="/{{ lang }}/privacy">
+                    Privacy</a>
                 -
                 <a
-                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
                     href="https://hosted.weblate.org/projects/fluffychat/">Translations</a>
                 -
                 <a
-                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
                     href="https://googlefonts.github.io/noto-emoji-animation/">Noto Animated Emojis</a>
                 -
                 <a
-                    class="text-slate-700 dark:text-slate-200 no-underline hover:text-purple-800 text-sm"
+                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
                     href="https://krille-chan.github.io">Created by Krille-chan</a>
+                <br/>
+                <span class="text-slate-700 dark:text-slate-200 text-sm">{{ i18n[lang].language_title }}:
+                </span>
+                {% for language in i18n.languages %}
+                    <a class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm" href="/{{ language }}/">{{ language }}</a>
+                {% endfor %}
             </footer>
         </div>
     </body>

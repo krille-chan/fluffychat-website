@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/typography";
+
 
 h2 {
     border-bottom: 1px solid lightgray;
