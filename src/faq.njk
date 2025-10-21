@@ -1,0 +1,13 @@
+---
+title: FAQ
+layout: "layout.njk"
+pagination:
+  data: i18n.languages
+  size: 1
+  alias: lang
+eleventyComputed:
+  permalink: "{{ lang }}/faq/index.html"
+  lang: "{{ lang }}"
+---
+
+<h1>{{ i18n[lang].website.faq }}</h1>

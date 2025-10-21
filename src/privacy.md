@@ -10,5 +10,5 @@ eleventyComputed:
   lang: "{{ lang }}"
 ---
 
-# {{ i18n[lang].privacyPolicy }}
+# {{ i18n[lang].website.privacyPolicy }}
 

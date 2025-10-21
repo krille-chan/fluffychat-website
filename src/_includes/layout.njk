@@ -28,17 +28,15 @@
         <!--Header-->
         <div class="w-full md:h-12 min-h-12 px-4 py-4 md:py-0 mb-8">
             <nav class="flex flex-wrap h-full justify-center items-center space-x-6 w-full max-w-4xl m-auto">
-                <a href="/{{ lang }}/" class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">{{ i18n[lang].home }}</a>
+                <a href="/{{ lang }}/" class="{{ "underline" if (title=="Home") }} text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">{{ i18n[lang].website.home }}</a>
+                <a href="/{{ lang }}/faq" class="{{ "underline" if (title=="FAQ") }} text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">{{ i18n[lang].website.faq }}</a>
+                <a href="/{{ lang }}/changelog" class="{{ "underline" if (title=="Changelog") }} text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">
+                    {{ i18n[lang].website.changelog }}</a>
                 <a
                     href="https://ko-fi.com/krille/posts"
                     target="_blank"
-                    class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">{{ i18n[lang].blog }}
+                    class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">{{ i18n[lang].website.blog }}
                 </a>
-                <a href="/{{ lang }}/changelog" class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">
-                    {{ i18n[lang].changelog }}</a>
-                <a
-                    href="https://github.com/krille-chan/fluffychat/wiki"
-                    class="text-lg dark:text-white hover:text-purple-800 dark:hover:text-purple-400">{{ i18n[lang].wiki }}</a>
                 <div class="md:flex-grow"></div>
                 <a href='https://ko-fi.com/C1C86VN53' class=" hover:scale-110 transition-transform" target='_blank'><img
                         height='36'
@@ -56,32 +54,32 @@
         <div class="w-full flex justify-center">
             <footer class="w-full text-center max-w-4xl p-4 text-slate-700 dark:text-slate-200">
                 <a class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm" href="/{{ lang }}/impressum">
-                    {{ i18n[lang].impressumTitle }}</a>
-                -
-                <a
-                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
-                    href="https://github.com/krille-chan/fluffychat">{{ i18n[lang].source_code }}</a>
-                -
-                <a
-                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
-                    href="https://liberapay.com/KrilleChritzelius">{{ i18n[lang].liberapay }}</a>
+                    {{ i18n[lang].website.impressumTitle }}</a>
                 -
                 <a class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm" href="/{{ lang }}/privacy">
-                    {{ i18n[lang].privacyPolicy }}</a>
+                    {{ i18n[lang].website.privacyPolicy }}</a>
                 -
                 <a
                     class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
-                    href="https://hosted.weblate.org/projects/fluffychat/">{{ i18n[lang].translations }}</a>
+                    href="https://github.com/krille-chan/fluffychat">{{ i18n[lang].website.source_code }}</a>
                 -
                 <a
                     class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
-                    href="https://googlefonts.github.io/noto-emoji-animation/">{{ i18n[lang].noto_emoji }}</a>
+                    href="https://liberapay.com/KrilleChritzelius">{{ i18n[lang].website.liberapay }}</a>
                 -
                 <a
                     class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
-                    href="https://krille-chan.github.io">{{ i18n[lang].created_by }}</a>
+                    href="https://hosted.weblate.org/projects/fluffychat/">{{ i18n[lang].website.translations }}</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
+                    href="https://googlefonts.github.io/noto-emoji-animation/">{{ i18n[lang].website.noto_emoji }}</a>
+                -
+                <a
+                    class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm"
+                    href="https://krille-chan.github.io">{{ i18n[lang].website.created_by }}</a>
                 <br/>
-                <span class="text-slate-700 dark:text-slate-200 text-sm">{{ i18n[lang].language_title }}:
+                <span class="text-slate-700 dark:text-slate-200 text-sm">{{ i18n[lang].website.language_title }}:
                 </span>
                 {% for language in i18n.languages %}
                     <a class="text-slate-700 dark:text-slate-200 underline hover:text-purple-800 text-sm" href="/{{ language }}/">{{ language }}</a>

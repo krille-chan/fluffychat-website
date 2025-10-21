@@ -10,5 +10,5 @@ eleventyComputed:
   lang: "{{ lang }}"
 ---
 
-# {{ i18n[lang].changelog }}
+# {{ i18n[lang].website.changelog }}
 
