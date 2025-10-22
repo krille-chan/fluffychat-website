@@ -21,11 +21,12 @@ jobs:
       - run: npm install tailwindcss @tailwindcss/cli
       - run: npx tailwindcss -i ./src/styles.css -o ./src/assets/tailwind.css --minify
       - run: npx @11ty/eleventy
-      - name: Deploy to GitHub Pages
-        if: startsWith(github.ref, 'refs/tags/v')
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
-          cname: fluffy.chat
+          path: './public/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
