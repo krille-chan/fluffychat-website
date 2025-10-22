@@ -41,6 +41,7 @@
     },
     "faq": {
         "who_created_fluffychat.question": "Who created FluffyChat?",
-        "who_created_fluffychat.answer": "Krille"
+        "who_created_fluffychat.answer": "Krille",
+        "what_is_fluffychat.question": "Was ist FluffyChat?"
     }
 }
