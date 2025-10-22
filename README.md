@@ -9,7 +9,7 @@ npm install tailwindcss @tailwindcss/cli
 Build the CSS output:
 
 ```sh
-npx tailwindcss -o ./src/assets/tailwind.css
+npx tailwindcss -i ./src/styles.css -o ./src/assets/tailwind.css --minify
 ```
 
 Build the website with 11ty:

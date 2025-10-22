@@ -1,6 +1,6 @@
 ---
 title: FAQ
-layout: "layout.njk"
+layout: "article.njk"
 pagination:
   data: i18n.languages
   size: 1
@@ -10,4 +10,42 @@ eleventyComputed:
   lang: "{{ lang }}"
 ---
 
-<h1>{{ i18n[lang].website.faq }}</h1>
+<h1 class="text-center">{{ i18n[lang].website.favouriteAskedQuestions }}</h1>
+<p class="text-center"><input id="searchField" type="text" placeholder="{{ i18n[lang].website.search }}" class="placeholder:text-slate-400 text-center text-slate-700 text-3xl bg-white border border-slate-200 rounded-full
+                        w-full px-8 py-4 my-8"/>
+</p>
+<span id="faqEntries">
+  {% for key, entry in i18n[lang].faq %}
+    {% if key.endsWith(".question") %}
+      <h2 id="{{ key.split(".")[0] }}:question" class="question" name="{{ key.split(".")[0] }}">
+        <a href="#{{ key.split(" .")[0] }}">#</a>
+        {{ entry }}
+      </h2>
+    {% endif %}
+    {% if key.endsWith(".answer") %}
+      <article id="{{ key.split(".")[0] }}:answer" class="answer">{{ entry }}</article>
+    {% endif %}
+  {% endfor %}
+</span>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const inputField = document.getElementById("searchField");
+    inputField.oninput = (_) => {
+      const query = inputField.value.toLowerCase();
+      const questions = document.querySelectorAll("#faqEntries .question");
+      for (var i = 0; i < questions.length; i++) {
+        const questionNode = questions[i];
+        const answerNodeId = questionNode.id.split(":")[0] + ":answer";
+        const answerNode = document.getElementById(answerNodeId);
+        const displayEntry = questionNode
+          .innerText
+          .toLowerCase()
+          .includes(query) || answerNode
+          .innerText
+          .toLowerCase()
+          .includes(query);
+        questionNode.hidden = answerNode.hidden = ! displayEntry;
+      }
+    };
+  });
+</script>

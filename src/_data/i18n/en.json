@@ -1,5 +1,6 @@
 {
     "website": {
+        "languageName": "English",
         "changelog": "Changelog",
         "impressumTitle": "Imprint",
         "contactTitle": "Contact",
@@ -34,10 +35,14 @@
         "liberapay": "Liberapay",
         "translations": "Translations",
         "noto_emoji": "Noto Animated Emojis",
-        "created_by": "Created by Krille-chan"
+        "created_by": "Created by Krille-chan",
+        "favouriteAskedQuestions": "Favourite asked questions",
+        "search": "Search 🔍"
     },
     "faq": {
         "who_created_fluffychat.question": "Who created FluffyChat?",
-        "who_created_fluffychat.answer": "Krille"
+        "who_created_fluffychat.answer": "Krille",
+        "who_is_krille.question": "Who is Krille?",
+        "who_is_krille.answer": "Developer"
     }
 }

@@ -2,7 +2,6 @@
 
 .markdown li {
     margin: 0px;
-    font-size: 0.8em;
 }
 
 .markdown li::marker {
@@ -19,12 +18,6 @@
     /* gray-800 */
     background-color: transparent;
     line-height: 1.75;
-}
-
-@media (prefers-color-scheme: dark) {
-    .markdown {
-        color: white;
-    }
 }
 
 .markdown h1,
@@ -74,7 +67,6 @@
 
 .markdown a {
     color: #6b21a8;
-    /* purple-700 */
     text-decoration: underline;
 }
 
@@ -150,4 +142,19 @@
 /* subtle typographic improvements */
 .markdown small {
     color: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+    .markdown {
+        color: white;
+    }
+
+    .markdown a {
+        color: #d0cee2;
+    }
+
+    .markdown a:hover {
+        color: #9a6cbe;
+    }
+
 }
