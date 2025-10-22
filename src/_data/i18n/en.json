@@ -40,9 +40,33 @@
         "search": "Search 🔍"
     },
     "faq": {
+        "what_is_fluffychat.question": "What is FluffyChat?",
+        "what_is_fluffychat.answer": "FluffyChat is a user-friendly, free, and ad-free open-source app based on the <a href='https://matrix.org'>Matrix protocol</a> and works similarly to Telegram or WhatsApp.<br/>With FluffyChat, you can chat with your friends privately, create group chats, exchange voice messages, share pictures and videos, and even send your location.<br/>And the best part:<br/><b>FluffyChat is compatible with other Matrix messengers!</b>",
+        "who_is_fluffychat_for.question": "Who is FluffyChat for?",
+        "who_is_fluffychat_for.answer": "FluffyChat is for anyone looking for a fast, user-friendly, and secure alternative to centralized messaging apps like WhatsApp, Telegram, or WeChat.",
         "who_created_fluffychat.question": "Who created FluffyChat?",
-        "who_created_fluffychat.answer": "Krille",
+        "who_created_fluffychat.answer": "FluffyChat is developed by the community and was initiated by Christian (Krille) Kußowski.",
         "who_is_krille.question": "Who is Krille?",
-        "who_is_krille.answer": "Developer"
+        "who_is_krille.answer": "Krille is a german developer with a passion for open source, UX and simple design. You can visit his website <a href='https://krille-chan.github.io'>here</a>.",
+        "how_is_fluffychat_funded.question": "How is FluffyChat funded?",
+        "how_is_fluffychat_funded.answer": "FluffyChat is a non-profit project driven by volunteers and totally funded by donations.",
+        "is_fluffychat_available_on_my_device.question": "Is FluffyChat available on my device?",
+        "is_fluffychat_available_on_my_device.answer": "Yes! You can use FluffyChat on mobile phones, tablets, and as a web version on your PC. Available on Android (Play Store and F-Droid), iOS (App Store), as a web app and as a desktop app for Linux (Flathub, Snap Store). It even works on Linux phones by using the Arm64 version of the Flatpak/Snap. You can compile it for MacOS and Windows by yourself if you like, but that is not yet supported.",
+        "how_do_i_create_an_account.question": "How do I create a FluffyChat account?",
+        "how_do_i_create_an_account.answer": "When you first launch the app, you'll be asked to create a new Matrix account. Select a server (e.g., matrix.org), enter your desired username, and a secure password. Optionally, you can add an email address (this is helpful for password recovery, but not required).",
+        "what_is_a_matrix_id.question": "What is a Matrix ID?",
+        "what_is_a_matrix_id.answer": "Your <b>Matrix ID</b> is your unique username on the network, e.g., @name:matrix.org. It consists of your name and the server on which your account is located.",
+        "how_do_i_log_in.question": "How do I log in to FluffyChat?",
+        "how_do_i_log_in.answer": "If you already have a Matrix account, simply enter your Matrix ID (e.g., @name:matrix.org) and password. You can log in to any Matrix-compatible server because FluffyChat is decentralized.",
+        "do_i_need_email.question": "Do I need an email address for FluffyChat?",
+        "do_i_need_email.answer": "No, an email address is not required. However, it is recommended if you want to reset your password or verify your account.",
+        "i_forgot_my_password.question": "I forgot my password. What now?",
+        "i_forgot_my_password.answer": "If you provided an email address when creating your account, you can reset your password via the server website (e.g., https://matrix.org). Unfortunately, recovery is not possible without an email address. In this case, you will need to create a new account.",
+        "i_changed_my_device_encrypted_messages.question": "I changed my device and now all my messages are encrypted. What now?",
+        "i_changed_my_device_encrypted_messages.answer": "To read your encrypted messages on the new device, you need to restore the backup you created previously. Enter your backup key or password when setting up FluffyChat on the new device. Only then can your messages be decrypted. If you haven't created a backup or have lost the key, your encrypted messages unfortunately cannot be restored.",
+        "how_do_i_create_a_backup_key.question": "How do I create a backup key in FluffyChat?",
+        "how_do_i_create_a_backup_key.answer": "Open FluffyChat and go to the <b>settings</b> to the <b>Chat Backup</b>. There you can set up an <u>encrypted</u> chat backup. You will be asked to save a recovery key. Important: Make a note of this key or keep it safe. <b>Without it, you won't be able to restore your encrypted messages on a new device.</b>",
+        "i_found_a_bug.question": "I found a bug. What now?",
+        "i_found_a_bug.answer": "You can report bugs directly on Github. Alternatively, there's a public group chat on Messenger (#fluffy-space:matrix.org) where you can ask questions or send feedback."
     }
 }

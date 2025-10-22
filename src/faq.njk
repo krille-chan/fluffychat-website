@@ -12,18 +12,19 @@ eleventyComputed:
 
 <h1 class="text-center">{{ i18n[lang].website.favouriteAskedQuestions }}</h1>
 <p class="text-center"><input id="searchField" type="text" placeholder="{{ i18n[lang].website.search }}" class="placeholder:text-slate-400 text-center text-slate-700 text-3xl bg-white border border-slate-200 rounded-full
-                        w-full px-8 py-4 my-8"/>
+                                    w-full px-8 py-4 my-8"/>
 </p>
 <span id="faqEntries">
   {% for key, entry in i18n[lang].faq %}
+    {% set tag = key.split(".")[0] %}
     {% if key.endsWith(".question") %}
-      <h2 id="{{ key.split(".")[0] }}:question" class="question" name="{{ key.split(".")[0] }}">
-        <a href="#{{ key.split(" .")[0] }}">#</a>
+      <h2 id="{{ tag }}:question" class="question">
+        <a name="{{ tag }}" href="#{{ tag }}">#</a>
         {{ entry }}
       </h2>
     {% endif %}
     {% if key.endsWith(".answer") %}
-      <article id="{{ key.split(".")[0] }}:answer" class="answer">{{ entry }}</article>
+      <article class="mb-12" id="{{ tag }}:answer" class="answer">{{ entry | safe }}</article>
     {% endif %}
   {% endfor %}
 </span>
