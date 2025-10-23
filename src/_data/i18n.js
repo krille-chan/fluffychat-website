@@ -18,9 +18,13 @@ export default function () {
                 ...defaultLang.website,
                 ...lang.website,
             };
-            langs[code].faq = {
-                ...defaultLang.faq,
-                ...lang.faq,
+            langs[code].faq_questions = {
+                ...defaultLang.faq_questions,
+                ...lang.faq_questions,
+            };
+            langs[code].faq_answers = {
+                ...defaultLang.faq_answers,
+                ...lang.faq_answers,
             };
         }
     }
