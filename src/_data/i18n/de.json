@@ -37,11 +37,10 @@
         "noto_emoji": "Noto Animierte Emojis",
         "created_by": "Erstellt von Krille-chan",
         "favouriteAskedQuestions": "Häufig gestellte Fragen",
-        "search": "Suche 🔍"
+        "search": "Suche 🔍",
+        "editFaq": "Du kannst dieses FAQ auf <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a> bearbeiten oder übersetzen."
     },
     "faq": {
-        "who_created_fluffychat.question": "Who created FluffyChat?",
-        "who_created_fluffychat.answer": "Krille",
         "what_is_fluffychat.question": "Was ist FluffyChat?"
     }
 }

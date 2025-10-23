@@ -2,6 +2,7 @@
 
 .markdown li {
     margin: 0px;
+    list-style: disc;
 }
 
 .markdown li::marker {
