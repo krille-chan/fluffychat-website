@@ -45,7 +45,7 @@
         "who_is_fluffychat_for.question": "Who is FluffyChat for?",
         "who_is_fluffychat_for.answer": "FluffyChat is for anyone looking for a fast, user-friendly, and secure alternative to centralized messaging apps like WhatsApp, Telegram, or WeChat.",
         "who_created_fluffychat.question": "Who created FluffyChat?",
-        "who_created_fluffychat.answer": "FluffyChat is developed by the community and was initiated by Christian (Krille) Kußowski.",
+        "who_created_fluffychat.answer": "FluffyChat is developed by the community and was initiated by Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski.",
         "who_is_krille.question": "Who is Krille?",
         "who_is_krille.answer": "Krille is a german developer with a passion for open source, UX and simple design. You can visit his website <a href='https://krille-chan.github.io'>here</a>.",
         "how_is_fluffychat_funded.question": "How is FluffyChat funded?",
