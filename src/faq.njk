@@ -13,7 +13,7 @@ eleventyComputed:
 <h1 class="text-center">{{ i18n[lang].website.favouriteAskedQuestions }}</h1>
 <p class="text-center">{{ i18n[lang].website.editFaq | safe }}</p>
 <p class="text-center"><input id="searchField" type="text" placeholder="{{ i18n[lang].website.search }}" class="placeholder:text-slate-400 text-center text-slate-700 text-3xl bg-white border border-slate-200 rounded-full
-                                            w-full px-8 py-4 my-8"/>
+                                                                  w-full px-8 py-4 my-8"/>
 </p>
 <span id="faqEntries">
   {% for tag, question in i18n[lang].faq_questions %}
@@ -21,7 +21,7 @@ eleventyComputed:
       <a name="{{ tag }}" href="#{{ tag }}">#</a>
       {{ question }}
     </h2>
-    <article class="mb-12" id="{{ tag }}:answer" class="answer">{{ i18n[lang].faq_answers[tag] | safe }}</article>
+    <article class="mb-12 pl-5" id="{{ tag }}:answer">{{ i18n[lang].faq_answers[tag] | safe }}</article>
   {% endfor %}
 </span>
 <script>

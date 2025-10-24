@@ -9,10 +9,6 @@
     color: gray;
 }
 
-.markdown h2 {
-    border-bottom: 1px solid lightgray;
-}
-
 /* Extended Markdown styles (scoped under .markdown) */
 .markdown {
     color: #1f2937;
@@ -27,7 +23,6 @@
 .markdown h4,
 .markdown h5 {
     margin-top: 1.25rem;
-    margin-bottom: 0.5rem;
     line-height: 1.25;
     color: inherit;
 }
@@ -39,21 +34,20 @@
 }
 
 .markdown h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     /* 28px */
     font-weight: 700;
-    padding-bottom: 0.35rem;
     border-top: 0;
     /* keep previous style minimal */
 }
 
 .markdown h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .markdown h4 {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -66,12 +60,15 @@
     margin-bottom: 1rem;
 }
 
-.markdown a {
+a {
     color: #6b21a8;
+}
+
+.markdown a {
     text-decoration: underline;
 }
 
-.markdown a:hover {
+a:hover {
     color: #7c3aed;
 }
 
@@ -150,11 +147,11 @@
         color: white;
     }
 
-    .markdown a {
+    a {
         color: #d0cee2;
     }
 
-    .markdown a:hover {
+    a:hover {
         color: #9a6cbe;
     }
 
