@@ -64,7 +64,8 @@ a {
     color: #6b21a8;
 }
 
-.markdown a {
+.markdown a,
+.features a {
     text-decoration: underline;
 }
 
