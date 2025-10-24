@@ -44,7 +44,6 @@
         "what_is_fluffychat": "What is FluffyChat?",
         "who_is_fluffychat_for": "Who is FluffyChat for?",
         "who_created_fluffychat": "Who created FluffyChat?",
-        "who_is_krille": "Who is Krille?",
         "how_is_fluffychat_funded": "How is FluffyChat funded?",
         "is_fluffychat_available_on_my_device": "Is FluffyChat available on my device?",
         "how_do_i_create_an_account": "How do I create a FluffyChat account?",
@@ -64,8 +63,7 @@
     "faq_answers": {
         "what_is_fluffychat": "FluffyChat is a user-friendly, free, and ad-free open-source app based on the <a href='https://matrix.org'>Matrix protocol</a> and works similarly to Telegram or WhatsApp.<br/>With FluffyChat, you can chat with your friends privately, create group chats, exchange voice messages, share pictures and videos, and even send your location.<br/>And the best part:<br/><b>FluffyChat is compatible with other Matrix messengers!</b>",
         "who_is_fluffychat_for": "FluffyChat is for anyone looking for a fast, user-friendly, and secure alternative to centralized messaging apps like WhatsApp, Telegram, or WeChat.",
-        "who_created_fluffychat": "FluffyChat is developed by the community and was initiated by Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski.",
-        "who_is_krille": "Krille is a german developer with a passion for open source, UX and simple design. You can visit his website <a href='https://krille-chan.github.io'>here</a>.",
+        "who_created_fluffychat": "FluffyChat is developed by the community and was initiated by Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski. However there are a lot of contributors, either code or translations. You can find them <a href='https://github.com/krille-chan/fluffychat/graphs/contributors'>here</a>.",
         "how_is_fluffychat_funded": "FluffyChat is a non-profit project driven by volunteers and totally funded by donations.",
         "is_fluffychat_available_on_my_device": "Yes! You can use FluffyChat on mobile phones, tablets, and as a web version on your PC. Available on Android (Play Store and F-Droid), iOS (App Store), as a web app and as a desktop app for Linux (Flathub, Snap Store). It even works on Linux phones by using the Arm64 version of the Flatpak/Snap. You can compile it for MacOS and Windows by yourself if you like, but that is not yet supported.",
         "how_do_i_create_an_account": "When you first launch the app, you'll be asked to create a new Matrix account. Select a server (e.g., matrix.org), enter your desired username, and a secure password. Optionally, you can add an email address (this is helpful for password recovery, but not required).",
