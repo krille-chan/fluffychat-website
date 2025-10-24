@@ -27,7 +27,7 @@
         "feature9_title": "Compatibilidade",
         "feature9_text_html": "FluffyChat é compatible con outras aplicacións como <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> ou <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
         "language_title": "Idiomas",
-        "tagline_html": "A mensaxería máis feitiña en [matrix]",
+        "tagline_html": "A aplicación máis feitiña para [matrix]",
         "home": "Inicio",
         "blog": "Blog",
         "faq": "PMF",
@@ -37,7 +37,8 @@
         "noto_emoji": "Emojis Noto animados",
         "created_by": "Creada por Krille-chan",
         "favouriteAskedQuestions": "Preguntas respondidas favoritas",
-        "search": "Buscar 🔍"
+        "search": "Buscar 🔍",
+        "editFaq": "Podes editar ou traducir esta PMF en <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>."
     },
     "faq_questions": {
         "what_is_fluffychat": "Que é FluffyChat?",
@@ -54,7 +55,10 @@
         "i_changed_my_device_encrypted_messages": "Cambiei de dispositivo e agora todas as miñas mensaxes aparecen cifradas. Como o soluciono?",
         "how_do_i_create_a_backup_key": "Como creo unha clave para a copia en FluffyChat?",
         "i_found_a_bug": "Atopei un fallo. Que fago?",
-        "push_without_google_services": "Como teño Notificacións Push sen os Google Services?"
+        "push_without_google_services": "Como teño Notificacións Push sen os Google Services?",
+        "how_can_i_extend_this_faq": "Como podo ampliar estas PMF?",
+        "how_to_use_end_to_end_encryption": "Como usar a cifraxe de extremo a extremo?",
+        "how_to_fork": "Com facer unha bifurcación de FluffyChat?"
     },
     "faq_answers": {
         "what_is_fluffychat": "FluffyChat é unha aplicación semellante a Telegram ou WhatsApp, con interface amigable, gratuíta, sen publicidade e de código aberto para o <a href='https://matrix.org'>protocolo Matrix</a>.<br/>Con FluffyChat podes parolar coas amizades de xeito privado, crear grupos de conversa, enviar mensaxes de voz, compartir fotos e vídeos, e tamén enviar a localización.<br/>O mellor de todo:<br/><b>FluffyChat é compatible con outras aplicacións mensaxeiras de Matrix!</b>",
@@ -71,6 +75,7 @@
         "i_changed_my_device_encrypted_messages": "Para ler no novo dispositivo as mensaxes cifradas tes que restablecer a copia de apoio creada anteriormente. Escribe a clave da copia ou contrasinal ao configurar FluffyChat no novo dispositivo. Só entón se poderán descifrar as mensaxes. Se non creaches unha copia de apoio ou perdeches a clave entón non se poderán restablecer as mensaxes.",
         "how_do_i_create_a_backup_key": "Abre FluffyChat e vai a <b>Copia de apoio</b> nos <b>axustes</b>. Alí podes configurar una copia de apoio <u>cifrada</u> das conversas. Pediráseche gardar a clave de recuperación. Importante: toma nota desta clave e gárdaa nun lugar seguro. <b>Sen ela non poderás restablecer as túas mensaxes cifradas nun novo dispositivo.</b>",
         "i_found_a_bug": "Podes informar directamente en Github de calquera incidencia. Tamén podes acudir ao grupo público da mensaxería (#fluffy-space:matrix.org) onde podes preguntar ou comentar a túa experiencia.",
-        "push_without_google_services": "Como teño Notificacións Push sen os Google Services?"
+        "push_without_google_services": "Como teño Notificacións Push sen os Google Services?",
+        "how_can_i_extend_this_faq": "En <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a> podes editar todas as entradas das PMF e traducilas ao teu idioma. Para editar o código de orixe da pregunta frecuente, tes que editar a versión en <b>inglés</b>. Podes engadir novas preguntas indo a <b>Inglés</b> e pulsando en <b>Engadir nova tradución</b>. Alí tes que definir a <b>clave</b> para a entrada da PMF.<br/><br/>A clave sempre comeza con <code>faq_questions.</code> ou <code>faq_answers.</code>, e despois consiste nas preguntas escritas en minúscula. Por exemplo, a clave desta pregunta é <code>faq_answer.how_can_i_extend_this_faq</code>.<br/><br/>Ten en conta que debes proporcionar unha pregunta <b>e</b> unha resposta, polo que debes definir dúas novas traducións."
     }
 }
