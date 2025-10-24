@@ -19,10 +19,11 @@
         <meta name="robots" content="All"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
-        <link href="/assets/tailwind.css" rel="stylesheet">
+        <link rel="preload" href="/assets/tailwind.css" as="style" onload="this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/assets/tailwind.css"></noscript>
     </head>
     <body
-        class="flex flex-col items-center min-h-screen w-full bg-gradient-to-t from-purple-200 to-blue-50 dark:from-purple-950
+        class="flex flex-col items-center min-h-screen w-full bg-gradient-to-t from-purple-50 to-blue-50 dark:from-purple-950
             dark:to-slate-900"
         style="font-family: 'Zen Kurenaido', sans-serif;">
         <!--Header-->
@@ -36,7 +37,7 @@
                 <a href="https://ko-fi.com/krille/posts" target="_blank" class="text-lg">{{ i18n[lang].website.blog }}
                 </a>
                 <div class="lg:flex-grow"></div>
-                <a href='https://ko-fi.com/C1C86VN53' class=" hover:scale-110 transition-transform" target='_blank'><img
+                <a href='https://ko-fi.com/C1C86VN53' class="hover:scale-110 transition-transform" target='_blank'><img
                         height='36'
                         style='border:0px;height:36px;'
                         src='https://storage.ko-fi.com/cdn/kofi3.png?v=6'
