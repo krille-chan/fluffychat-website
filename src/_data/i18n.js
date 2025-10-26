@@ -26,6 +26,10 @@ export default function () {
                 ...defaultLang.faq_answers,
                 ...lang.faq_answers,
             };
+
+            if (code != 'en' && langs[code].website.languageName == 'English') {
+                langs[code] = undefined;
+            }
         }
     }
     return {
