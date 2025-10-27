@@ -52,6 +52,28 @@
         "do_i_need_email": "Heb ik een emailadres nodig voor FluffyChat?",
         "i_forgot_my_password": "Ik ben mijn wachtwoord vergeten. Wat nu?",
         "i_changed_my_device_encrypted_messages": "Ik ben van apparaat veranderd en nu zijn mijn berichten versleuteld. Wat nu?",
-        "how_do_i_create_a_backup_key": "Hoe maak ik een backupsleutel in FluffyChat?"
+        "how_do_i_create_a_backup_key": "Hoe maak ik een backupsleutel in FluffyChat?",
+        "i_found_a_bug": "Ik heb een fout gevonden. Wat nu?",
+        "push_without_google_services": "Hoe krijg ik meldingen zonder Google Services?",
+        "how_can_i_extend_this_faq": "Hoe kan ik deze FAQ aanvullen?",
+        "how_to_use_end_to_end_encryption": "Hoe gebruik je end-to-end encryptie?",
+        "how_to_fork": "Hoe kan ik FluffyChat forken?",
+        "how_do_i_find_other_users": "Hoe vind ik andere personen?"
+    },
+    "faq_answers": {
+        "what_is_fluffychat": "FluffyChat is een gebruiksvriendelijke, gratis en advertised vrije open source app gebaseerd op het <a href='https://matrix.org'>Matrix-protocol</a> en werkt net als Telegram of WhatsApp.<br/>Met FluffyChat kan je privé chatten met je vrienden, groepschats maken, audioberichten, foto’s, video’s en zelfs je locatie delen.<br/>En het allerbeste is:<br/><b>FluffyChat is compatibel met andere Matrix-apps!</b>",
+        "who_is_fluffychat_for": "FluffyChat is voor iedereen die op zoek is naar een snel, gebruikersvriendelijk en veilig alternatief voor gesloten apps zoals WhatsApp, Telegram of WeChat.",
+        "who_created_fluffychat": "FluffyChat is ontwikkelt door de gemeenschap en is gestart door Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski. Er zijn ook meerdere bijdragers met code en vertalingen. Je kan ze <a href='https://github.com/krille-chan/fluffychat/graphs/contributors'>hier</a> vinden.",
+        "how_is_fluffychat_funded": "FluffyChat is een non-profit project gedreven door vrijwilligers en volledig gefinancierd door donaties.",
+        "is_fluffychat_available_on_my_device": "Ja! Je kunt FluffyChat gebruiken op mobiele telefoons, tablets en als webversie op je PC. Beschikbaar op Android (Play Store en F-Droid), iOS (App Store), als web app en als een desktop app voor Linux (Flathub, Snap Store). Het werkt zelfs op Linux telefoons door de Arm64-versie van de Flatpak/Snap te gebruiken. Je kunt het compileren voor macOS en Windows als je dat wilt, maar dat is nog niet ondersteund.",
+        "how_do_i_create_an_account": "Als je de app voor het eerst start moet je eerst een nieuw Matrix-account maken. Selecteer een server (bijv. matrix.org), kies je login en een veilig wachtwoord. Optioneel, kun je een emailadres toevoegen dat helpt bij het wachtwoordherstel, maar is niet vereist.",
+        "what_is_a_matrix_id": "Je <b>Matrix ID</b> is jouw unieke login op het netwerk, bijv. @naam:matrix.org. Het bestaat uit je naam en de server waar je account op staat.",
+        "how_do_i_log_in": "Als je al een Matrix-account hebt, vul dan gewoon je Matrix ID (bijv. @naam:matrix.org) en wachtwoord in. Je kunt met elke Matrix-compatibel server inloggen, omdat FluffyChat decentraal is.",
+        "do_i_need_email": "Nee, een emailadres is niet nodig. Echter, het is wel aanbevolen als je je wachtwoord wilt kunnen resetten of je account wilt verifiëren.",
+        "i_forgot_my_password": "Als je een emailadres invult als je je account aanmaakt, kun je je wachtwoord herstellen via de server website (bijv. https://matrix.org). Helaas is herstel niet mogelijk zonder emailadres. In dit geval moet je een nieuwe account aanmaken.",
+        "i_changed_my_device_encrypted_messages": "Om je versleutelde berichten op het nieuwe apparaat te lezen, moet je de back-up herstellen die je eerder hebt gemaakt. Vul je back-up sleutel of wachtwoord in als je FluffyChat op het nieuwe apparaat zet. Alleen dan kunnen je berichten worden ontsleutelt. Als je geen back-up hebt gemaakt of de sleutel bent verloren, kunnen je de versleutelde berichten helaas niet herstellen.",
+        "how_do_i_create_a_backup_key": "Open FluffyChat en ga naar <b>instellingen</b> en dan <b>Chatback-up</b>. Daar kun je een <u>versleutelde</u> chatback-up regelen. Je wordt gevraagd om een herstelsleutel op te slaan. Bewaar dit op een veilige plaats. <b>Zonder deze herstelsleutel, kun je je versleutelde berichten niet herstellen.</b>",
+        "i_found_a_bug": "Je kunt bugs rapporteren op Github. Een alternatief is de publieke groepschat (#fluffy-space:matrix.org) waar je vragen kunt stellen en feedback kan sturen.",
+        "how_can_i_extend_this_faq": "Op <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a> kan je alle vragen van de FAQ bewerken en vertalen naar je eigen taal. Om de oorspronkelijke vraag te bewerken moet je de <b>english</b> versie bewerken. Als een beheerder kan je ook nieuwe vragen toevoegen via de taal <b>English</b> en dan te tikken op <b>Add new translation</b>. Hier kan je een <b>key</b> vastleggen voor de FAQ.<br/><br/>De key start altijd met <code>faq_questions.</code> en <code>faq_answers.</code>, zorg ervoor dat de vraag in kleine letters met lage strepen is. Bijvoorbeeld <code>faq_answer.how_can_i_extend_this_faq</code>.<br/><br/>Let op dat je zowel een vraag <b>én</b> een antwoord moet geven.<br/><br/>Als je geen beheerder bent kan je <a href='https://github.com/krille-chan/fluffychat-website/blob/main/src/_data/i18n/en.json'>dit json-bestand op GitHub</a> bewerken."
     }
 }
