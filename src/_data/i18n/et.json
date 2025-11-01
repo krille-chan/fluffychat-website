@@ -1,1 +1,13 @@
-{}
+{
+    "website": {
+        "languageName": "Eesti keel",
+        "changelog": "Muudatuste logi",
+        "impressumTitle": "Ilmumisandmed",
+        "contactTitle": "Meie kontaktid",
+        "emailLabel": "E-posti aadress:",
+        "emailLinkText": "Klõpsi siin",
+        "matrixLabel": "Matrix:",
+        "privacyPolicy": "Andmekaitsepõhimõtted",
+        "feature1_title": "Lihtsaltkasutatav"
+    }
+}
