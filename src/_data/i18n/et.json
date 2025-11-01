@@ -8,6 +8,28 @@
         "emailLinkText": "Klõpsi siin",
         "matrixLabel": "Matrix:",
         "privacyPolicy": "Andmekaitsepõhimõtted",
-        "feature1_title": "Lihtsaltkasutatav"
+        "feature1_title": "Lihtsaltkasutatav",
+        "feature1_text": "FluffyChat on loodud võimalikult lihtsaltkasutatavana. Mitte keegi ei peaks olema jäetud kõrvale.",
+        "feature2_title": "Material You",
+        "feature2_text": "Detailideni lihvitud kujundus põhineb Material You kujunduskeelel ja toimib edukalt kõikidel platvormidel.",
+        "feature3_title": "Turvaline",
+        "feature3_text": "Kasutades läbivat krüptimist, risttunnustamist ja krüptitud varundust, on FluffyChat üks turvalisemaid sõnumikliente.",
+        "feature4_title": "Hajutatud",
+        "feature4_text_html": "Sa võid valida <a href=\"https://joinmatrix.org\">serveri</a>, mida tahad kasutada või sootuks <a href=\"https://matrix.org/ecosystem/servers/\">püsti panna</a> täitsa enda oma!",
+        "feature5_title": "Tõuketeavitused",
+        "feature5_text_html": "Sul on võimalik valida Firebase Cloud Messaging-liidestuse või privaatsuskesksema <a href=\"https://unifiedpush.org\">Unified Pushi</a> vahel.",
+        "feature6_title": "Kogukonnad",
+        "language_title": "Keel",
+        "tagline_html": "Kõige nunnum sõnumiklient [matrix]-i võrgus",
+        "home": "Avaleht",
+        "blog": "Ajaveeb",
+        "faq": "KKK",
+        "source_code": "Lähtekood",
+        "liberapay": "Liberapay",
+        "translations": "Tõlked",
+        "created_by": "Autor on Krille-chan"
+    },
+    "faq_questions": {
+        "i_forgot_my_password": "Unustasin oma salasõna. Mida ma nüüd teen?"
     }
 }
