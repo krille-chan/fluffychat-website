@@ -27,9 +27,37 @@
         "source_code": "Lähtekood",
         "liberapay": "Liberapay",
         "translations": "Tõlked",
-        "created_by": "Autor on Krille-chan"
+        "created_by": "Autor on Krille-chan",
+        "search": "Otsi 🔍",
+        "editFaq": "Siinset KKK-loendit saad muuta ja tõlkida <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate'is</a>.",
+        "noto_emoji": "Noto animeeritud emojid",
+        "feature6_text": "Matrixi kogukonnad ühendavad jututube ja kasutajaid, nad võimaldavad sul luua seltsinguid, eri vormis ühendusi või nendega liituda. Kogukonda saad lisada ka alamkogukondi ja see lisab täiendavaid võimalusi organiseerumiseks.",
+        "feature7_title": "Videokõned",
+        "feature7_text": "See on hetkel veel katsejärgus, kuid juba praegu saad proovida video- ja häälkõnesid, mis ühilduvad teiste [matrix]-i klientidega.",
+        "feature8_title": "Kleepsud",
+        "feature8_text": "Loo oma enda kleepsupakk ja jaga seda oma sõpradega. Võid neid kasutada ka tekstisiseste emojidena.",
+        "feature9_title": "Ühilduv",
+        "feature9_text_html": "FluffyChat ühildub kõikide muude [matrix]-i klientidega, nagu näiteks <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> või <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
+        "favouriteAskedQuestions": "Populaarseimad korduma kippuvad küsimused"
     },
     "faq_questions": {
-        "i_forgot_my_password": "Unustasin oma salasõna. Mida ma nüüd teen?"
+        "i_forgot_my_password": "Unustasin oma salasõna. Mida ma nüüd teen?",
+        "i_changed_my_device_encrypted_messages": "Ma vahetasin oma nutiseadme ära ja nüüd on kõik minu sõnumid krüptitud. Mida ma nüüd teen?",
+        "how_do_i_create_a_backup_key": "Kuidas ma korraldan FluffyChatis krüptovõtmete varundust?",
+        "i_found_a_bug": "Ma leidsin ühe vea. Mida ma sellega teen?",
+        "push_without_google_services": "Kuidas saan kasutada tõuketeenuseid ilma Google'i teenusteta?",
+        "how_can_i_extend_this_faq": "Kas selle KKK täiendamine on võimalik?",
+        "how_to_use_end_to_end_encryption": "Kuidas ma kasutan läbivat krüptimist?",
+        "how_do_i_find_other_users": "Kuidas ma leian teisi kasutajaid?",
+        "do_i_need_email": "Kas ma vajan FluffyChati kasutamiseks e-posti aadressi?",
+        "what_is_fluffychat": "Mis on FluffyChat?",
+        "who_is_fluffychat_for": "Mille jaoks on FluffyChat loodud?",
+        "who_created_fluffychat": "Kes on FluffyChati autor?",
+        "how_is_fluffychat_funded": "Kuidas toimib FluffyChati rahastamine?",
+        "is_fluffychat_available_on_my_device": "Kas FluffyChat on saadaval ka minu seadme jaoks?",
+        "how_do_i_create_an_account": "Kuidas ma loon FluffyChati kasutajakonto?",
+        "what_is_a_matrix_id": "Mis on Matrixi kasutajatunnus (Matrix ID)?",
+        "how_do_i_log_in": "Kuidas ma login FluffyChatti sisse?",
+        "how_to_fork": "Kuidas ma saan FluffyChati koodist oma versiooni teha?"
     }
 }
