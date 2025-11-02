@@ -1,6 +1,6 @@
 {
     "website": {
-        "languageName": "Eesti keel",
+        "languageName": "eesti keel",
         "changelog": "Muudatuste logi",
         "impressumTitle": "Ilmumisandmed",
         "contactTitle": "Meie kontaktid",
@@ -59,5 +59,16 @@
         "what_is_a_matrix_id": "Mis on Matrixi kasutajatunnus (Matrix ID)?",
         "how_do_i_log_in": "Kuidas ma login FluffyChatti sisse?",
         "how_to_fork": "Kuidas ma saan FluffyChati koodist oma versiooni teha?"
+    },
+    "faq_answers": {
+        "what_is_fluffychat": "FluffyChat on kasutajasõbralik, vaba, tasuta ning reklaamideta ja avatud lähtekoodiga vestlusrakendus, mis kasutab <a href='https://matrix.org'>Matrixi protokolli</a> ning toimib sarnaselt Telegrami või WhatsApiga.<br/>FluffyChati abil saad sõprade ja tuttavatega suhelda privaatselt, luua jututube, vahetada häälsõnumeid, jagada pilte ning videoid ning isegi jagada oma asukohta.<br/>Ja mis on kõige toredam:<br/><b>FluffyChat ühildub kõikide teiste Matrixi sõnumiklientidega!</b>",
+        "who_is_fluffychat_for": "FluffyChat sobib kõigile, kes vajavad kiiret, kasutajasõbralikku ja turvalist alternatiivi tsentraliseeritud vestlusrakendustele nagu WhatsApp, Telegram või WeChat.",
+        "who_created_fluffychat": "FluffyChati arendust korraldab huviliste kogukond ja projekti algatas Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski. Kaasautoreid nii koodi kirjutamise või tõlkimise poolel on väga palju - nende tervikliku <a href='https://github.com/krille-chan/fluffychat/graphs/contributors'>loendi leiad siit</a>.",
+        "how_is_fluffychat_funded": "FluffyChat on vabatahtlike juhitud tulu mittetaotlev projekt, mille rahastamine toetub vaid annetustele.",
+        "is_fluffychat_available_on_my_device": "Jah! Sa võid FluffyChatti kasutada nutitelefonides, tahvelarvutites ning veebivariandina või oma laua- või sülearvutis. Saadaval nii Androidi (Play Store ja F-Droid),kui iOS -i(App Store) jaoks, lisaks veebirakendusena ja arvutivariandina Linuxile (Flathub, Snap Store). Ta toimib isegi Linuxi telefonides, kus saab kasutada Flatpaki või Snapi arm64 jaoks tehtud versiooni. Kui tahad, siis saad ta ise kompileerida ka MacOS-i ja Windows-i jaoks, kuid see pole ametlikult toetatud.",
+        "how_do_i_create_an_account": "Esmakordsel rakenduse käivitamisel palume sul luua endale uue Matrixi kasutajakonto. Vali sobilik server (nt. matrix.org), sisesta soovitud kasutajanimi ja turvaline salasõna. Kui soovid, siis võid lisada e-posti aadressi (mis on abiks salasõna taastamisel), kuid see pole kohustuslik).",
+        "what_is_a_matrix_id": "Sinu <b>Matrixi kasutajatunnus (Matrix ID)</b> on sinu unikaalne tunnus kogu Matrixi võrgus, nt. @sinunimi:toreserver.org. Nagu muud sarnased aadressid, siis ka see on loodud põhimõttel „keegi - kusagil“ ehk siis sinu nimest ja koduserverist, mis kontot haldab. Lihtsalt kirjapilt on natuke erinev sellest, millega sa võib-olla oled e-posti puhul harjunud.",
+        "how_do_i_log_in": "Kui sul juba on Matrixi kasutajakonto olemas, siis sisesta Matrixi kasutajatunnus (Matrix ID) (nt. @sinunimi:toreserver.org) ja salasõna. Kuna FluffyChat kasutab hajutatud võrku, siis kõik Matrixiga ühilduvad serverid toimivad sisselogimiseks ilusti.",
+        "do_i_need_email": "Ei, e-posti aadress pole vajalik. Aga kui tahad kunagi kasutada salasõna taastamist või oma kontot verifitseerida, siis on hea soovitus seda kasutada."
     }
 }
