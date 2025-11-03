@@ -25,7 +25,7 @@
         "feature8_title": "Stickers",
         "feature8_text": "Creëer je eigen stickers en deel ze met je vrienden. Je kunt ze zelfs gebruiken als emojis.",
         "feature9_title": "Compatibel",
-        "feature9_text_html": "FluffyChat is o.a. compatibel met <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> en <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
+        "feature9_text_html": "FluffyChat is compatibel met elke [matrix] client zoals <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> en <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
         "language_title": "Taal",
         "tagline_html": "De schattigste chat app met [matrix]",
         "home": "Home",
@@ -38,7 +38,11 @@
         "created_by": "Gemaakt door Krille-chan",
         "favouriteAskedQuestions": "Veelgestelde vragen",
         "search": "Zoek 🔍",
-        "editFaq": "Verbeter of vertaal deze FAQ op <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>."
+        "editFaq": "Verbeter of vertaal deze FAQ op <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>.",
+        "@languageName": {
+            "description": "Plaats hier de naam van je taal ín je taal. Dit zal worden geplaatst als het label in de taalkiezer."
+        },
+        "supportMeOnKoFi": "Steun me op Ko-Fi"
     },
     "faq_questions": {
         "what_is_fluffychat": "Wat is FluffyChat?",
