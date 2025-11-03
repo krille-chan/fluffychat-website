@@ -38,7 +38,11 @@
         "feature8_text": "Loo oma enda kleepsupakk ja jaga seda oma sõpradega. Võid neid kasutada ka tekstisiseste emojidena.",
         "feature9_title": "Ühilduv",
         "feature9_text_html": "FluffyChat ühildub kõikide muude [matrix]-i klientidega, nagu näiteks <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> või <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
-        "favouriteAskedQuestions": "Populaarseimad korduma kippuvad küsimused"
+        "favouriteAskedQuestions": "Populaarseimad korduma kippuvad küsimused",
+        "@languageName": {
+            "description": "eesti keel"
+        },
+        "supportMeOnKoFi": "Toeta mind Ko-Fi teenuses"
     },
     "faq_questions": {
         "i_forgot_my_password": "Unustasin oma salasõna. Mida ma nüüd teen?",
@@ -70,6 +74,9 @@
         "what_is_a_matrix_id": "Sinu <b>Matrixi kasutajatunnus (Matrix ID)</b> on sinu unikaalne tunnus kogu Matrixi võrgus, nt. @sinunimi:toreserver.org. Nagu muud sarnased aadressid, siis ka see on loodud põhimõttel „keegi - kusagil“ ehk siis sinu nimest ja koduserverist, mis kontot haldab. Lihtsalt kirjapilt on natuke erinev sellest, millega sa võib-olla oled e-posti puhul harjunud.",
         "how_do_i_log_in": "Kui sul juba on Matrixi kasutajakonto olemas, siis sisesta Matrixi kasutajatunnus (Matrix ID) (nt. @sinunimi:toreserver.org) ja salasõna. Kuna FluffyChat kasutab hajutatud võrku, siis kõik Matrixiga ühilduvad serverid toimivad sisselogimiseks ilusti.",
         "do_i_need_email": "Ei, e-posti aadress pole vajalik. Aga kui tahad kunagi kasutada salasõna taastamist või oma kontot verifitseerida, siis on hea soovitus seda kasutada.",
-        "i_forgot_my_password": "Kui sa oled kasutajakonto lisamisel lisanud ka e-posti aadressi, siis saad salasõna lähtestada selle serveri veebisaidist, kus sinu konto asub (nt. https://matrix.org). Kahjuks salasõna taastamine ilma e-posti aadressita pole võimalik ja sel puhul pead uue kasutajakonto looma."
+        "i_forgot_my_password": "Kui sa oled kasutajakonto lisamisel lisanud ka e-posti aadressi, siis saad salasõna lähtestada selle serveri veebisaidist, kus sinu konto asub (nt. https://matrix.org). Kahjuks salasõna taastamine ilma e-posti aadressita pole võimalik ja sel puhul pead uue kasutajakonto looma.",
+        "i_changed_my_device_encrypted_messages": "Kui soovid oma varasemaid sõnumeid uues seadmes lugeda, siis pead taastama varasemate krüptovõtmeta varunduse. FluffyChati seadistamisel uues seadmes sisesta on taastevõti või salasõna ja vaid sel puhul sõnumite dekrüptimine toimib. Kui sa pole võtmete varundamist tööle pannud või taastevõti on kadunud, siis varasemate sõnumite loetavaks muutmine pole kahjuks võimalik.",
+        "how_do_i_create_a_backup_key": "Ava FluffyChat, sealt <b>⚙ Seadistused</b> ning <b>Varunda vestlus</b>. Misjärel saadki seadistada <u>krüptitud</u> vestluse varunduse. Rakendus palub sul salvestada oma kasutajakonto taastevõti. On väga oluline, et salvestad ta endale turvalisel viisil, näiteks digitaalses salasõnalaekas. <b>Ilma taastevõtmeta pole võimalik sinu uues seadmes krüptitud sõnumeid loetavaks teha.</b>",
+        "i_found_a_bug": "Sa võid vigadest anda teada otse Githubis. Alternatiiviks on avalik jututuba (aadressiga #fluffy-space:matrix.org), kus saad küsida küsimusi ning probleemide kohta asjalikku tagasisidet."
     }
 }
