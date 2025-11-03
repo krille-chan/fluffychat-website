@@ -38,7 +38,8 @@
         "created_by": "Created by Krille-chan",
         "favouriteAskedQuestions": "Favourite asked questions",
         "search": "Search 🔍",
-        "editFaq": "You can edit or translate this FAQ on <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>."
+        "editFaq": "You can edit or translate this FAQ on <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>.",
+        "supportMeOnKoFi": "Support me on Ko-Fi"
     },
     "faq_questions": {
         "what_is_fluffychat": "What is FluffyChat?",
