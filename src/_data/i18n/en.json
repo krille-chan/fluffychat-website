@@ -1,6 +1,9 @@
 {
     "website": {
         "languageName": "English",
+        "@languageName": {
+            "description": "Place here the name of your language in your language. Will be placed as the label in the language picker."
+        },
         "changelog": "Changelog",
         "impressumTitle": "Imprint",
         "contactTitle": "Contact",
