@@ -1,1 +1,20 @@
-{}
+{
+    "website": {
+        "languageName": "Frysk",
+        "changelog": "Skiednis fan feroaring",
+        "impressumTitle": "Kolofon",
+        "contactTitle": "Kontakt",
+        "emailLabel": "Email:",
+        "emailLinkText": "Klik hjir",
+        "matrixLabel": "Matrix:",
+        "feature1_title": "Maklik te brûken",
+        "feature1_text": "FluffyChat is ûntworpen om sa maklik mooglik te brûken te wêzen. Nimmen moat efterlitten wurde.",
+        "feature2_title": "Material You",
+        "feature2_text": "It gepolijste ûntwerp is basearre op Material You en wurket goed op alle platfoarms.",
+        "feature3_title": "Feilich",
+        "feature3_text": "Mei end-to-end fersifering, autentikaasje en fersifere reservekopyen is FluffyChat ien fan 'e feilichste chat-apps dy't beskikber binne.",
+        "feature4_title": "Desintralisearre",
+        "feature4_text_html": "Kies dyn eigen <a href=\"https://joinmatrix.org\">server</a> of <a href=\"https://matrix.org/ecosystem/servers/\">self-host</a> dyn eigen!",
+        "tagline_html": "De leukste chat-app mei [matrix]"
+    }
+}
