@@ -25,7 +25,7 @@
         "feature8_title": "Adhesivos",
         "feature8_text": "Crea os teus propios adhesivos e compárteos coas túas amizades. Tamén podes usalos como emojis nas mensaxes.",
         "feature9_title": "Compatibilidade",
-        "feature9_text_html": "FluffyChat é compatible con outras aplicacións como <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> ou <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
+        "feature9_text_html": "FluffyChat é compatible con outros clientes [matrix] como <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> ou <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
         "language_title": "Idiomas",
         "tagline_html": "A aplicación máis feitiña para [matrix]",
         "home": "Inicio",
@@ -38,7 +38,11 @@
         "created_by": "Creada por Krille-chan",
         "favouriteAskedQuestions": "Preguntas respondidas favoritas",
         "search": "Buscar 🔍",
-        "editFaq": "Podes editar ou traducir esta PMF en <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>."
+        "editFaq": "Podes editar ou traducir esta PMF en <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>.",
+        "@languageName": {
+            "description": "Galego"
+        },
+        "supportMeOnKoFi": "Apóiame en Ko-Fi"
     },
     "faq_questions": {
         "what_is_fluffychat": "Que é FluffyChat?",
@@ -63,7 +67,7 @@
     "faq_answers": {
         "what_is_fluffychat": "FluffyChat é unha aplicación semellante a Telegram ou WhatsApp, con interface amigable, gratuíta, sen publicidade e de código aberto para o <a href='https://matrix.org'>protocolo Matrix</a>.<br/>Con FluffyChat podes parolar coas amizades de xeito privado, crear grupos de conversa, enviar mensaxes de voz, compartir fotos e vídeos, e tamén enviar a localización.<br/>O mellor de todo:<br/><b>FluffyChat é compatible con outras aplicacións mensaxeiras de Matrix!</b>",
         "who_is_fluffychat_for": "FluffyChat é para calquera persoa que busque unha alternativa áxil, amigable e segura aos servizos centralizados de apps como WhatsApp, Telegram ou WeChat.",
-        "who_created_fluffychat": "A comunidade desenvolve FluffyChat, e foi iniciada por Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski.",
+        "who_created_fluffychat": "A comunidade desenvolve FluffyChat, e foi iniciada por Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski. Emporiso somos moitas as persoas que colaboramos, tanto ao código como nas traducións. Podes atoparnos <a href='https://github.com/krille-chan/fluffychat/graphs/contributors'>aquí</a>.",
         "how_is_fluffychat_funded": "FluffyChat é un proxecto sen ánimo de lucro xestionado por persoas voluntarias e só financiada con doazóns.",
         "is_fluffychat_available_on_my_device": "Si! Podes usar FluffyChat en teléfonos móbiles, tabletas e incluso na versión web para PC. Está dispoñible para Android (Play Store e F-Droid), iOS (App Store), como páxina web e como aplicación de escritorio en Linux (Flathub, Snap Store). Incluso funciona en móbiles Linux usando a versión Arm64 de Flatpak/Snap. Podes compilala ti para MacOS e Windows se queres, pero aínda non se proporciona unha versión.",
         "how_do_i_create_an_account": "A primeira vez que inicias a app váiseche pedir crear unha nova conta en Matrix. Elixe o servidor (ex. matrix.org), escribe o identificador que desexas e un contrasinal forte. Optativamente podes engadir un enderezo de correo electrónico (útil para recuperar o contrasinal, pero non obrigatorio).",
