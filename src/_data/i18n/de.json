@@ -39,6 +39,9 @@
         "favouriteAskedQuestions": "Häufig gestellte Fragen",
         "search": "Suche 🔍",
         "editFaq": "Du kannst dieses FAQ auf <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a> bearbeiten oder übersetzen.",
-        "supportMeOnKoFi": "Unterstütze mich auf Ko-Fi"
+        "supportMeOnKoFi": "Unterstütze mich auf Ko-Fi",
+        "@languageName": {
+            "description": "Gib hier den Namen deiner Sprache in deiner Sprache ein. Dieser Name wird in der Sprachauswahl als Bezeichnung angezeigt."
+        }
     }
 }
