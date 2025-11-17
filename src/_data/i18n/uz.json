@@ -40,7 +40,8 @@
         "created_by": "Krille-chan tomonidan yaratilgan",
         "search": "Qidirish 🔍",
         "editFaq": "Ushbu KBS ni <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a> sahifasida tahrirlashingiz yoki tarjima qilishingiz mumkin.",
-        "supportMeOnKoFi": "Ko-Fiʼda meni qoʻllab-quvvatlang"
+        "supportMeOnKoFi": "Ko-Fiʼda meni qoʻllab-quvvatlang",
+        "favouriteAskedQuestions": "Koʻp beriladigan savolllar"
     },
     "faq_questions": {
         "what_is_fluffychat": "FluffyChat nima?",
