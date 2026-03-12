@@ -41,7 +41,7 @@
         "noto_emoji": "Noto Animated Emojis",
         "created_by": "Created by Krille-chan",
         "favouriteAskedQuestions": "Favourite asked questions",
-        "search": "Search 🔍",
+        "search": "Search",
         "editFaq": "You can edit or translate this FAQ on <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>.",
         "supportMeOnKoFi": "Support me on Ko-Fi"
     },
@@ -68,7 +68,7 @@
         "how_do_i_get_stickers": "How do I get stickers?"
     },
     "faq_answers": {
-        "how_can_i_support_fluffychat": "<p>FluffyChat is developed by volunteers and is available for everyone to use for free. We believe that secure and decentralized communication should be accessible to all.</p><p>However, running the project still costs money. Servers, development tools, testing devices, and other infrastructure need to be paid for in order to keep FluffyChat running and improving.</p><p>If you would like to support the project, there are several ways you can help:</p><ul><li><strong>Help translate FluffyChat:</strong> You can contribute translations so people all around the world can use the app in their own language.</li><li><strong>Help other users:</strong> Answer questions in community chats or help respond to issues on GitHub.</li><li><strong>Donate:</strong> Financial support helps cover server and development costs. You can donate here:<ul><li><a href=\"https://ko-fi.com/C1C86VN53\" target=\"_blank\">Ko-fi</a></li><li><a href=\"https://liberapay.com/KrilleChritzelius\" target=\"_blank\">Liberapay</a></li></ul></li></ul><p>Even small contributions make a big difference. If every FluffyChat user donated just <strong>€1 per year</strong>, it would already cover all project costs.</p><p>Thank you for helping keep FluffyChat open, free, and community-driven! 💙</p>",
+        "how_can_i_support_fluffychat": "<p><strong>FluffyChat needs YOUR help!</strong></p><p>FluffyChat is developed by volunteers and will always be free for everyone. But hosting and development are not possible without financial support.</p><p>Right now I spend almost all of my free time developing FluffyChat, completely unpaid. However, this is not something I can do forever. The future of FluffyChat depends on people like you.</p><p>Most people will ignore this message. But if FluffyChat is useful to you, please consider making a small donation.</p><p>Thank you for helping keep FluffyChat alive and independent.</p>",
         "what_is_fluffychat": "FluffyChat is a user-friendly, free, and ad-free open-source app based on the <a href='https://matrix.org'>Matrix protocol</a> and works similarly to Telegram or WhatsApp.<br/>With FluffyChat, you can chat with your friends privately, create group chats, exchange voice messages, share pictures and videos, and even send your location.<br/>And the best part:<br/><b>FluffyChat is compatible with other Matrix messengers!</b>",
         "who_is_fluffychat_for": "FluffyChat is for anyone looking for a fast, user-friendly, and secure alternative to centralized messaging apps like WhatsApp, Telegram, or WeChat.",
         "who_created_fluffychat": "FluffyChat is developed by the community and was initiated by Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski. However there are a lot of contributors, either code or translations. You can find them <a href='https://github.com/krille-chan/fluffychat/graphs/contributors'>here</a>.",
