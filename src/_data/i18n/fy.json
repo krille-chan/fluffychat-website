@@ -64,7 +64,8 @@
         "how_to_use_end_to_end_encryption": "Hoe kinne jo end-to-end fersifering brûke?",
         "how_to_fork": "Hoe kin ik FluffyChat forkje?",
         "how_do_i_find_other_users": "Hoe kin ik oare brûkers fine?",
-        "how_can_i_support_fluffychat": ""
+        "how_can_i_support_fluffychat": "",
+        "how_do_i_get_stickers": ""
     },
     "faq_answers": {
         "what_is_fluffychat": "FluffyChat is in brûkerfreonlike, fergese en advertinsjefrije iepen boarne-app basearre op it <a href='https://matrix.org'>Matrix-protokol</a> en wurket fergelykber mei Telegram of WhatsApp.<br/>Mei FluffyChat kinne jo privee mei jo freonen petearje, groepchats oanmeitsje, stimberjochten útwikselje, foto's en fideo's diele, en sels jo lokaasje ferstjoere.<br/>En it bêste diel:<br/><b>FluffyChat is kompatibel mei oare Matrix-messengers!</b>",
@@ -85,6 +86,7 @@
         "how_to_fork": "",
         "i_forgot_my_password": "",
         "how_can_i_support_fluffychat": "",
-        "how_do_i_find_other_users": ""
+        "how_do_i_find_other_users": "",
+        "how_do_i_get_stickers": ""
     }
 }
