@@ -42,7 +42,8 @@
         "feature1_text": "",
         "editFaq": "",
         "emailLabel": "",
-        "feature2_title": ""
+        "feature2_title": "",
+        "feature9_text_html": ""
     },
     "faq_answers": {
         "how_do_i_log_in": "",
@@ -62,7 +63,8 @@
         "how_to_fork": "",
         "i_forgot_my_password": "",
         "how_can_i_support_fluffychat": "",
-        "how_do_i_find_other_users": ""
+        "how_do_i_find_other_users": "",
+        "how_do_i_get_stickers": ""
     },
     "faq_questions": {
         "how_do_i_create_an_account": "",
