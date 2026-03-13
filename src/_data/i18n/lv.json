@@ -42,7 +42,8 @@
         },
         "liberapay": "",
         "editFaq": "",
-        "feature2_title": ""
+        "feature2_title": "",
+        "feature9_text_html": ""
     },
     "faq_answers": {
         "how_do_i_log_in": "",
@@ -59,7 +60,12 @@
         "what_is_a_matrix_id": "",
         "how_do_i_create_an_account": "",
         "i_forgot_my_password": "",
-        "how_can_i_support_fluffychat": ""
+        "how_can_i_support_fluffychat": "",
+        "how_can_i_extend_this_faq": "",
+        "how_to_use_end_to_end_encryption": "",
+        "how_to_fork": "",
+        "how_do_i_get_stickers": "",
+        "how_do_i_find_other_users": ""
     },
     "faq_questions": {
         "how_do_i_create_an_account": "",
@@ -77,6 +83,10 @@
         "how_do_i_log_in": "",
         "i_found_a_bug": "",
         "i_forgot_my_password": "",
-        "what_is_fluffychat": ""
+        "what_is_fluffychat": "",
+        "how_do_i_get_stickers": "",
+        "how_to_fork": "",
+        "how_do_i_find_other_users": "",
+        "how_to_use_end_to_end_encryption": ""
     }
 }
