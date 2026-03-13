@@ -42,7 +42,8 @@
         "favouriteAskedQuestions": "Favoriete stelde fragen",
         "search": "Sykje 🔍",
         "editFaq": "Jo kinne dizze FAQ bewurkje of oersette op <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>.",
-        "supportMeOnKoFi": "Stipe my op Ko-Fi"
+        "supportMeOnKoFi": "Stipe my op Ko-Fi",
+        "termsOfService": ""
     },
     "faq_questions": {
         "what_is_fluffychat": "Wat is FluffyChat?",
@@ -62,9 +63,28 @@
         "how_can_i_extend_this_faq": "Hoe kin ik dizze FAQ útwreidzje?",
         "how_to_use_end_to_end_encryption": "Hoe kinne jo end-to-end fersifering brûke?",
         "how_to_fork": "Hoe kin ik FluffyChat forkje?",
-        "how_do_i_find_other_users": "Hoe kin ik oare brûkers fine?"
+        "how_do_i_find_other_users": "Hoe kin ik oare brûkers fine?",
+        "how_can_i_support_fluffychat": ""
     },
     "faq_answers": {
-        "what_is_fluffychat": "FluffyChat is in brûkerfreonlike, fergese en advertinsjefrije iepen boarne-app basearre op it <a href='https://matrix.org'>Matrix-protokol</a> en wurket fergelykber mei Telegram of WhatsApp.<br/>Mei FluffyChat kinne jo privee mei jo freonen petearje, groepchats oanmeitsje, stimberjochten útwikselje, foto's en fideo's diele, en sels jo lokaasje ferstjoere.<br/>En it bêste diel:<br/><b>FluffyChat is kompatibel mei oare Matrix-messengers!</b>"
+        "what_is_fluffychat": "FluffyChat is in brûkerfreonlike, fergese en advertinsjefrije iepen boarne-app basearre op it <a href='https://matrix.org'>Matrix-protokol</a> en wurket fergelykber mei Telegram of WhatsApp.<br/>Mei FluffyChat kinne jo privee mei jo freonen petearje, groepchats oanmeitsje, stimberjochten útwikselje, foto's en fideo's diele, en sels jo lokaasje ferstjoere.<br/>En it bêste diel:<br/><b>FluffyChat is kompatibel mei oare Matrix-messengers!</b>",
+        "how_do_i_log_in": "",
+        "how_can_i_extend_this_faq": "",
+        "do_i_need_email": "",
+        "how_is_fluffychat_funded": "",
+        "is_fluffychat_available_on_my_device": "",
+        "who_is_fluffychat_for": "",
+        "i_changed_my_device_encrypted_messages": "",
+        "how_to_use_end_to_end_encryption": "",
+        "push_without_google_services": "",
+        "who_created_fluffychat": "",
+        "i_found_a_bug": "",
+        "how_do_i_create_a_backup_key": "",
+        "what_is_a_matrix_id": "",
+        "how_do_i_create_an_account": "",
+        "how_to_fork": "",
+        "i_forgot_my_password": "",
+        "how_can_i_support_fluffychat": "",
+        "how_do_i_find_other_users": ""
     }
 }
