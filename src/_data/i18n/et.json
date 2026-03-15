@@ -28,7 +28,7 @@
         "liberapay": "Liberapay",
         "translations": "Tõlked",
         "created_by": "Autor on Krille-chan",
-        "search": "Otsi 🔍",
+        "search": "Otsi",
         "editFaq": "Siinset KKK-loendit saad muuta ja tõlkida <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate'is</a>.",
         "noto_emoji": "Noto animeeritud emojid",
         "feature6_text": "Matrixi kogukonnad ühendavad jututube ja kasutajaid, nad võimaldavad sul luua seltsinguid, eri vormis ühendusi või nendega liituda. Kogukonda saad lisada ka alamkogukondi ja see lisab täiendavaid võimalusi organiseerumiseks.",
@@ -65,7 +65,7 @@
         "how_do_i_log_in": "Kuidas ma login FluffyChatti sisse?",
         "how_to_fork": "Kuidas ma saan FluffyChati koodist oma versiooni teha?",
         "how_do_i_get_stickers": "Kust kohast ma saan kleepse?",
-        "how_can_i_support_fluffychat": ""
+        "how_can_i_support_fluffychat": "Kuidas ma saan FluffyChati toetada?"
     },
     "faq_answers": {
         "what_is_fluffychat": "FluffyChat on kasutajasõbralik, vaba, tasuta ning reklaamideta ja avatud lähtekoodiga vestlusrakendus, mis kasutab <a href='https://matrix.org'>Matrixi protokolli</a> ning toimib sarnaselt Telegrami või WhatsApiga.<br/>FluffyChati abil saad sõprade ja tuttavatega suhelda privaatselt, luua jututube, vahetada häälsõnumeid, jagada pilte ning videoid ning isegi jagada oma asukohta.<br/>Ja mis on kõige toredam:<br/><b>FluffyChat ühildub kõikide teiste Matrixi sõnumiklientidega!</b>",
