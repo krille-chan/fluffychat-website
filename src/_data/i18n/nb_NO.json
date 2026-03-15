@@ -41,7 +41,9 @@
         "search": "Søk 🔍",
         "editFaq": "Du kan redigere eller oversette denne FAQen på <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>.",
         "feature7_text": "Dette er fortsatt en eksperimentell funksjon, men du kan allerede prøve ut video- og lydsamtaler som er kompatible med andre [matrix]-klienter.",
-        "termsOfService": "Brukervilkår"
+        "termsOfService": "Brukervilkår",
+        "feature6_text": "",
+        "feature8_text": ""
     },
     "faq_questions": {
         "what_is_fluffychat": "Hva er FluffyChat?",
@@ -62,6 +64,29 @@
         "how_can_i_extend_this_faq": "Hvordan utvider jeg denne FAQ-en?",
         "how_to_use_end_to_end_encryption": "Hvordan bruke ende-til-ende-kryptering?",
         "how_to_fork": "Hvordan forker jeg FluffyChat?",
-        "how_do_i_get_stickers": "Hvordan får jeg stickers?"
+        "how_do_i_get_stickers": "Hvordan får jeg stickers?",
+        "how_can_i_support_fluffychat": ""
+    },
+    "faq_answers": {
+        "how_do_i_log_in": "",
+        "how_can_i_extend_this_faq": "",
+        "do_i_need_email": "",
+        "how_is_fluffychat_funded": "",
+        "is_fluffychat_available_on_my_device": "",
+        "who_is_fluffychat_for": "",
+        "i_changed_my_device_encrypted_messages": "",
+        "how_to_use_end_to_end_encryption": "",
+        "push_without_google_services": "",
+        "what_is_fluffychat": "",
+        "who_created_fluffychat": "",
+        "i_found_a_bug": "",
+        "how_do_i_create_a_backup_key": "",
+        "what_is_a_matrix_id": "",
+        "how_do_i_create_an_account": "",
+        "how_to_fork": "",
+        "i_forgot_my_password": "",
+        "how_can_i_support_fluffychat": "",
+        "how_do_i_find_other_users": "",
+        "how_do_i_get_stickers": ""
     }
 }
