@@ -38,10 +38,12 @@
         "feature4_text_html": "Du kan velge hvilken <a href=\"https://joinmatrix.org\">tjener</a> du vil bruke, eller til og med <a href=\"https://matrix.org/ecosystem/servers/\">drifte din egen</a>!",
         "feature9_title": "Kompatibel",
         "feature9_text_html": "FluffyChat er kompatibel med alle andre [matrix]-klienter, som <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> eller <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>.",
-        "search": "Søk 🔍",
+        "search": "Søk",
         "editFaq": "Du kan redigere eller oversette denne FAQen på <a href='https://hosted.weblate.org/projects/fluffychat/fluffychat-website'>Weblate</a>.",
         "feature7_text": "Dette er fortsatt en eksperimentell funksjon, men du kan allerede prøve ut video- og lydsamtaler som er kompatible med andre [matrix]-klienter.",
-        "termsOfService": "Brukervilkår"
+        "termsOfService": "Brukervilkår",
+        "feature6_text": "",
+        "feature8_text": "ag dine egne stickersett og del dem med vennene dine. Du kan til og med bruke dem som integrerte emojier."
     },
     "faq_questions": {
         "what_is_fluffychat": "Hva er FluffyChat?",
@@ -62,6 +64,29 @@
         "how_can_i_extend_this_faq": "Hvordan utvider jeg denne FAQ-en?",
         "how_to_use_end_to_end_encryption": "Hvordan bruke ende-til-ende-kryptering?",
         "how_to_fork": "Hvordan forker jeg FluffyChat?",
-        "how_do_i_get_stickers": "Hvordan får jeg stickers?"
+        "how_do_i_get_stickers": "Hvordan får jeg stickers?",
+        "how_can_i_support_fluffychat": "Hvordan kan jeg støtte FluffyChat?"
+    },
+    "faq_answers": {
+        "how_do_i_log_in": "",
+        "how_can_i_extend_this_faq": "",
+        "do_i_need_email": "Nei, e-postadresse er ikke påkrevd. Det anbefales imidlertid hvis du ønsker å kunne tilbakestille passordet ditt eller verifisere kontoen din.",
+        "how_is_fluffychat_funded": "FluffyChat er et ideelt prosjekt som drives av frivillige og er fullstendig finansiert av donasjoner.",
+        "is_fluffychat_available_on_my_device": "Ja! Du kan bruke FluffyChat på mobiltelefoner, nettbrett og som en nettversjon på PC-en din. Tilgjengelig på Android (Play Store og F-Droid), iOS (App Store), som en nettapp og som en skrivebordsapp for Linux (Flathub, Snap Store). Den fungerer til og med på Linux-telefoner ved å bruke Arm64-versjonen av Flatpak/Snap. Du kan kompilere den for macOS og Windows selv hvis du vil, men det er ikke støttet ennå.",
+        "who_is_fluffychat_for": "FluffyChat er for alle som ser etter et raskt, brukervennlig og sikkert alternativ til sentraliserte meldingsapper som WhatsApp, Telegram eller WeChat.",
+        "i_changed_my_device_encrypted_messages": "",
+        "how_to_use_end_to_end_encryption": "",
+        "push_without_google_services": "",
+        "what_is_fluffychat": "",
+        "who_created_fluffychat": "FluffyChat er utviklet av fellesskapet og ble startet av Christian (<a href='https://krille-chan.github.io/'>Krille</a>) Kußowski. Det er imidlertid mange bidragsytere, enten med kode eller oversettelser. Du finner dem <a href='https://github.com/krille-chan/fluffychat/graphs/contributors'>her</a>.",
+        "i_found_a_bug": "Du kan rapportere feil direkte på GitHub. Alternativt finnes det en offentlig gruppechat (#fluffy-space:matrix.org) hvor du kan stille spørsmål eller sende tilbakemeldinger.",
+        "how_do_i_create_a_backup_key": "",
+        "what_is_a_matrix_id": "",
+        "how_do_i_create_an_account": "",
+        "how_to_fork": "",
+        "i_forgot_my_password": "",
+        "how_can_i_support_fluffychat": "",
+        "how_do_i_find_other_users": "",
+        "how_do_i_get_stickers": ""
     }
 }
