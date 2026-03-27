@@ -65,7 +65,8 @@
         "how_do_i_log_in": "Kuidas ma login FluffyChatti sisse?",
         "how_to_fork": "Kuidas ma saan FluffyChati koodist oma versiooni teha?",
         "how_do_i_get_stickers": "Kust kohast ma saan kleepse?",
-        "how_can_i_support_fluffychat": "Kuidas ma saan FluffyChati toetada?"
+        "how_can_i_support_fluffychat": "Kuidas ma saan FluffyChati toetada?",
+        "verify_android_app": "Kuidas saan Androidi rakenduse õigsust kontrollida?"
     },
     "faq_answers": {
         "what_is_fluffychat": "FluffyChat on kasutajasõbralik, vaba, tasuta ning reklaamideta ja avatud lähtekoodiga vestlusrakendus, mis kasutab <a href='https://matrix.org'>Matrixi protokolli</a> ning toimib sarnaselt Telegrami või WhatsApiga.<br/>FluffyChati abil saad sõprade ja tuttavatega suhelda privaatselt, luua jututube, vahetada häälsõnumeid, jagada pilte ning videoid ning isegi jagada oma asukohta.<br/>Ja mis on kõige toredam:<br/><b>FluffyChat ühildub kõikide teiste Matrixi sõnumiklientidega!</b>",
