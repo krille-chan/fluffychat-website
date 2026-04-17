@@ -43,7 +43,7 @@
         "liberapay": "Liberapay",
         "editFaq": "",
         "feature2_title": "Material You",
-        "feature9_text_html": ""
+        "feature9_text_html": "FluffyChat ir saderīgs ar jebkuru citu [matrix] klientu, piemēram, <a href=\"https://element.io\">Element</a>, <a href=\"https://nheko-reborn.github.io/\">Nheko</a>, <a href=\"https://cinny.in\">Cinny</a> or <a href=\"https://apps.kde.org/de/neochat/\">NeoChat</a>."
     },
     "faq_answers": {
         "how_do_i_log_in": "",
@@ -68,7 +68,7 @@
         "how_do_i_find_other_users": ""
     },
     "faq_questions": {
-        "how_do_i_create_an_account": "",
+        "how_do_i_create_an_account": "Kā es varu izveidot FluffyChat kontu?",
         "push_without_google_services": "",
         "i_changed_my_device_encrypted_messages": "",
         "do_i_need_email": "",
@@ -87,6 +87,6 @@
         "how_do_i_get_stickers": "",
         "how_to_fork": "",
         "how_do_i_find_other_users": "",
-        "how_to_use_end_to_end_encryption": ""
+        "how_to_use_end_to_end_encryption": "Kā izmantot pilnīgu šifrēšanu?"
     }
 }
