@@ -65,7 +65,8 @@
         "how_to_use_end_to_end_encryption": "Hvordan bruke ende-til-ende-kryptering?",
         "how_to_fork": "Hvordan forker jeg FluffyChat?",
         "how_do_i_get_stickers": "Hvordan får jeg stickers?",
-        "how_can_i_support_fluffychat": "Hvordan kan jeg støtte FluffyChat?"
+        "how_can_i_support_fluffychat": "Hvordan kan jeg støtte FluffyChat?",
+        "verify_android_app": ""
     },
     "faq_answers": {
         "how_do_i_log_in": "",
@@ -87,6 +88,7 @@
         "i_forgot_my_password": "",
         "how_can_i_support_fluffychat": "",
         "how_do_i_find_other_users": "",
-        "how_do_i_get_stickers": ""
+        "how_do_i_get_stickers": "",
+        "verify_android_app": ""
     }
 }
