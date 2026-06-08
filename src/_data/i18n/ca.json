@@ -58,7 +58,15 @@
         },
         "liberapay": "",
         "editFaq": "",
-        "feature9_text_html": ""
+        "feature9_text_html": "",
+        "languageName": "català",
+        "emailLinkText": "Fes clic aquí",
+        "feature1_title": "Fàcil de fer servir",
+        "feature2_text": "Un disseny ben polit basat en Material You i que funciona bé en totes les plataformes.",
+        "privacyPolicy": "Política de privacitat",
+        "feature1_text": "FluffyChat està dissenyat per ser tant fàcil de fer servir com sigui possible. No s'ha de deixar enrere ningú.",
+        "emailLabel": "Correu electrònic:",
+        "feature2_title": "Material You"
     },
     "faq_questions": {
         "how_do_i_create_an_account": "",
