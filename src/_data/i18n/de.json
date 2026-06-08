@@ -65,7 +65,8 @@
         "how_to_fork": "Wie kann ich FluffyChat forken?",
         "how_do_i_find_other_users": "Wie finde ich andere user?",
         "how_can_i_support_fluffychat": "Wie kann ich FluffyChat unterstützen?",
-        "how_do_i_get_stickers": "Wie bekomme ich Aufkleber?"
+        "how_do_i_get_stickers": "Wie bekomme ich Aufkleber?",
+        "verify_android_app": "Wie kann ich die authentizität der Android App prüfen?"
     },
     "faq_answers": {
         "what_is_fluffychat": "FluffyChat ist eine benutzerfreundliche, kostenlose und werbefreie Open-Source-App, die auf dem <a href='https://matrix.org'>Matrix-Protokoll</a> basiert und ähnlich wie Telegram oder WhatsApp funktioniert.<br/>Mit FluffyChat kannst du privat mit deinen Freunden chatten, Gruppenchats erstellen, Sprachnachrichten austauschen, Bilder und Videos teilen und sogar deinen Standort senden.<br/>Und das Beste daran:<br/><b>FluffyChat ist mit anderen Matrix-Messengern kompatibel!</b>",
