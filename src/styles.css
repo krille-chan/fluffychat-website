@@ -83,6 +83,14 @@ a {
     color: #6b21a8;
 }
 
+.appname_one {
+    color: #6b21a8;
+}
+
+.appname_two {
+    color: #00a0bb;
+}
+
 .markdown a,
 .features a {
     text-decoration: underline;
