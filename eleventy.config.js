@@ -1,8 +1,15 @@
+import anchor from "markdown-it-anchor";
+
 export default async function (eleventyConfig) {
 
-    eleventyConfig.addFilter("t", (key, translations) => {
-        if (!translations) return "";
-        return key.split(".").reduce((o, k) => (o && o[k] !== undefined) ? o[k] : "", translations) || "";
+    eleventyConfig.amendLibrary("md", (md) => {
+        md.use(anchor, {
+            slugify: (s) => s.toLowerCase().replace(/[^a-z0-9\s]/g, "").trim().replace(/\s+/g, "_"),
+            permalink: anchor.permalink.linkInsideHeader({
+                symbol: "🔗",
+                placement: "after",
+            }),
+        });
     });
 
     eleventyConfig.addPassthroughCopy("src/assets");

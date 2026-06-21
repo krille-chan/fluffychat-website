@@ -27,6 +27,25 @@
     color: inherit;
 }
 
+.faq-page .header-anchor {
+    text-decoration: none;
+    opacity: 0.4;
+    margin-left: 0.4rem;
+    font-size: 0.85em;
+}
+
+.faq-page .header-anchor:hover {
+    opacity: 1;
+}
+
+.header-anchor {
+    display: none;
+}
+
+.faq-page .header-anchor {
+    display: inline;
+}
+
 .markdown h1 {
     font-size: 2.25rem;
     /* 36px */
