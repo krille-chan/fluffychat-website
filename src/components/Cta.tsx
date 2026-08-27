@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "@/components/Container";
+import { withBasePath } from "@/lib/basePath";
 
 export const Cta = () => {
   return (
@@ -15,7 +16,7 @@ export const Cta = () => {
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
-            href="/#install"
+            href={withBasePath("/#install")}
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 "
           >
             Download for Free

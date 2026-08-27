@@ -3,6 +3,7 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
+import { withBasePath } from "@/lib/basePath";
 
 export const Navbar = () => {
   const navigation = [
@@ -34,7 +35,7 @@ export const Navbar = () => {
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
           <ThemeChanger />
           <a href='https://ko-fi.com/C1C86VN53' className="hidden mr-3 lg:flex nav__item hover:scale-110 transition-transform">
-            <div className="rounded-xl bg-slate-900 dark:bg-slate-50 p-2 flex flex-row spacing-4"><img src="/img/ko-fi.png" className="h-5 mr-2" />
+            <div className="rounded-xl bg-slate-900 dark:bg-slate-50 p-2 flex flex-row spacing-4"><img src={withBasePath("/img/ko-fi.png")} className="h-5 mr-2" />
               <span className="text-white dark:text-black text-xs flex items-center mr-2">Support on Ko-Fi</span>
             </div>
           </a>
@@ -74,7 +75,7 @@ export const Navbar = () => {
                     </Link>
                   ))}
                   <a href='https://ko-fi.com/C1C86VN53' className="mt-4 hover:scale-110 transition-transform">
-                    <div className="rounded-xl bg-slate-900 dark:bg-slate-50 p-2 flex flex-row spacing-4"><img src="/img/ko-fi.png" className="h-5 mr-2" />
+                    <div className="rounded-xl bg-slate-900 dark:bg-slate-50 p-2 flex flex-row spacing-4"><img src={withBasePath("/img/ko-fi.png")} className="h-5 mr-2" />
                       <span className="text-white dark:text-black text-xs flex items-center mr-2">Support on Ko-Fi</span>
                     </div>
                   </a>

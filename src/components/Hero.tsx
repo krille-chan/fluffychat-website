@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
+import { withBasePath } from "@/lib/basePath";
 import heroImg from "../../public/img/screenshot_mobile.png";
 
 export const Hero = () => {
@@ -16,18 +17,18 @@ export const Hero = () => {
             </p>
 
             <div className="max-w-lg flex flex-wrap">
-              <a href="https://apps.apple.com/app/fluffychat/id1551469600"><img src="/img/appstore-badge.png" className="w-36 pr-2 mb-2 inline hover:scale-105 transition-transform" />
+              <a href="https://apps.apple.com/app/fluffychat/id1551469600"><img src={withBasePath("/img/appstore-badge.png")} className="w-36 pr-2 mb-2 inline hover:scale-105 transition-transform" />
               </a>
-              <a href="https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat"><img src="/img/google-play-badge.png" className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
+              <a href="https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat"><img src={withBasePath("/img/google-play-badge.png")} className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
               </a>
-              <a href="https://f-droid.org/packages/chat.fluffy.fluffychat/"><img src="/img/fdroid_button.png" className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
+              <a href="https://f-droid.org/packages/chat.fluffy.fluffychat/"><img src={withBasePath("/img/fdroid_button.png")} className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
               </a>
               <a href="https://fluffychat.im/web">
-                <img src="/img/browser-badge.png" className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
+                <img src={withBasePath("/img/browser-badge.png")} className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
               </a>
-              <a href="https://snapcraft.io/fluffychat"><img src="/img/snap-store-badge.svg" className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
+              <a href="https://snapcraft.io/fluffychat"><img src={withBasePath("/img/snap-store-badge.svg")} className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
               </a>
-              <a href="https://flathub.org/apps/details/im.fluffychat.Fluffychat"><img src="/img/flathub-badge-en.png" className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
+              <a href="https://flathub.org/apps/details/im.fluffychat.Fluffychat"><img src={withBasePath("/img/flathub-badge-en.png")} className="w-36 pr-2 mb-2  hover:scale-105 transition-transform inline" />
               </a>
             </div>
 
