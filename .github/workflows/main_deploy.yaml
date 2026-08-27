@@ -23,18 +23,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Prepare web
-        run: ./prepare.sh
+
       - uses: actions/setup-node@v6
-      - run: npm install tailwindcss @tailwindcss/cli
-      - run: npx tailwindcss -i ./src/styles.css -o ./src/assets/tailwind.css --minify
-      - run: npx @11ty/eleventy
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public/'
+          path: ./out
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
