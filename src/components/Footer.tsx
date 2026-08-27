@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
+import { withBasePath } from "@/lib/basePath";
 
 export function Footer() {
   const navigation = [
@@ -30,8 +31,8 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.png"
-                  alt="N"
+                  src={withBasePath("/img/logo.png")}
+                  alt="FluffyChat logo"
                   width="32"
                   height="32"
                   className="w-8"
