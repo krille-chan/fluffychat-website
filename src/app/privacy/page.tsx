@@ -306,7 +306,7 @@ export default function PrivacyPage() {
         <h2 id="calls">Calls</h2>
         <p>
           FluffyChat supports Matrix RTC calls via LiveKit. These calls use
-          LiveKit encryption with asymmetric keys shared via Matrix's olm-encrypted
+          LiveKit encryption with asymmetric keys shared via olm-encrypted
           to-device messaging.
         </p>
         <p>
