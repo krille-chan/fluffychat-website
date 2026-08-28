@@ -39,6 +39,7 @@ const tocItems = [
   { href: "#push-notifications", label: "Push Notifications" },
   { href: "#crash-reports", label: "Crash Reports" },
   { href: "#playstore-safety", label: "PlayStore Safety Standards" },
+  { href: "#calls", label: "Group calls" },
 ];
 
 const articleClassName =
@@ -231,6 +232,11 @@ export default function PrivacyPage() {
           FluffyChat sets the <code>event_id_only</code> flag at the Matrix
           Server. This server is then responsible to send the correct data.
         </p>
+        <p>
+          FluffyChat also supports UnifiedPush. When UnifiedPush is used, the
+          UnifiedPush provider acts as the push notification service. Learn
+          more at <a href="https://unifiedpush.org/">unifiedpush.org</a>.
+        </p>
 
         <h2 id="crash-reports">Crash Reports</h2>
         <p>
@@ -295,6 +301,21 @@ export default function PrivacyPage() {
           <a href="https://matrix.org/docs/older/moderation/">
             https://matrix.org/docs/older/moderation/
           </a>
+        </p>
+
+        <h2 id="calls">Calls</h2>
+        <p>
+          FluffyChat supports Matrix RTC calls via LiveKit. These calls use
+          LiveKit encryption with asymmetric keys shared via Matrix's olm-encrypted
+          to-device messaging.
+        </p>
+        <p>
+          The SFU used depends on the origin of the call. Each
+          homeserver can define its preferred SFU in a static file, which is then
+          downloaded by the client. When starting a new call, the client uses the
+          SFU defined by the homeserver. When joining an existing call, the client
+          instead uses the SFU with which the call was created, which may be a foreign
+          SFU instance.
         </p>
       </article>
     </Container>
