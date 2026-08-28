@@ -13,8 +13,8 @@ export function Footer() {
     { "title": "Support on Liberapay", "href": "https://liberapay.com/KrilleChritzelius" },
   ];
   const legal = [
-    { "title": "Privacy", "href": "https://github.com/krille-chan/fluffychat/blob/main/PRIVACY.md" },
-    { "title": "Terms", "href": "https://github.com/krille-chan/fluffychat/blob/main/TERMS.md" },
+    { "title": "Privacy", "href": "/privacy" },
+    { "title": "Terms", "href": "/tos" },
     { "title": "Built with Nextly from Web3Templates", "href": "https://web3templates.com" },
   ];
 
