@@ -7,8 +7,8 @@ import { withBasePath } from "@/lib/basePath";
 
 export const Navbar = () => {
   const navigation = [
-    { "title": "Install", "href": "/#install" },
-    { "title": "Features", "href": "/#features" },
+    { "title": "Install", "href": "#install" },
+    { "title": "Features", "href": "#features" },
     { "title": "News", "href": "https://ko-fi.com/krille/posts" },
   ];
 
