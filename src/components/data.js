@@ -11,46 +11,46 @@ import benefitOneImg from "../../public/img/screenshot_desktop.png";
 import benefitTwoImg from "../../public/img/screenshot_mobile_2.png";
 
 const benefitOne = {
-  title: "More than a normal messaging app",
-  desc: "FluffyChat supports more than easy to use end-to-end encryption and video calls. You can own all your data.",
+  title: "Messaging how it should be",
+  desc: "Whether for your friends, your company or local community, FluffyChat supports a variety of features to cover all your daily needs.",
   image: benefitOneImg,
   bullets: [
     {
       title: "Easy to use",
-      desc: "FluffyChat is designed to be as easy to use as possible. No one should be left behind.",
+      desc: "Simply install, log in and start chatting. The intuitive user interface makes secure communication as easy as possible.",
       icon: <FaceSmileIcon />,
     },
     {
       title: "Secure",
-      desc: "With end-to-end encryption, cross-signing and encrypted backups, FluffyChat is one of the most secure messenger out there.",
+      desc: "With olm/megolm end-to-end encryption, encrypted message backups and an automated key trust system, FluffyChat is among the most secure messengers available.",
       icon: <ChartBarSquareIcon />,
     },
     {
       title: "Decentral",
-      desc: "You can choose the server you want to use or even self-host your own!",
+      desc: "Based on the open Matrix protocol we build a decentralized messaging network together, which no entity can control. Host your own chat server while remaining in contact with everyone.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Feature rich and stable",
-  desc: "FluffyChat offers a big variaty of features covering all your daily needs.",
+  title: "Feature rich and reliable",
+  desc: "From public chats with tens of thousands of participants and polls to custom stickers, spaces, rich moderation tools, and multi-device support, FluffyChat delivers a comprehensive communication suite.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Video Calls",
-      desc: "Direct calls and big video conferences. All supported with Matrix RTC compatible encryption.",
+      title: "Secure video Calls",
+      desc: "Direct calls and video conferences, fully secured with Matrix RTC-compatible encryption.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Compatible",
-      desc: "FluffyChat is compatible with any other [matrix] client like Element, Nheko, Cinny or NeoChat.",
+      title: "Not another walled garden",
+      desc: "We do not build another walled garden! FluffyChat is fully compatible with any other Matrix client like Element, Nheko, Cinny or NeoChat. Learn more at matrix.org.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "FluffyChat is intuitive to use and offers a modern Material Design.",
+      title: "Made by volunteers",
+      desc: "FluffyChat is a non-profit project based on open standards and driven entirely by volunteers. Infrastructure is funded by donations, and participation is open to everyone.",
       icon: <SunIcon />,
     },
   ],

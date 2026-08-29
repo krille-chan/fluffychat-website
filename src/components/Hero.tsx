@@ -10,10 +10,10 @@ export const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 id="install" className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Messaging how it should be.
+              Your communication should be yours.
             </h1>
             <p className="py-5 text-xl mb-8 leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Open source, non-profit, and accessible to everyone. Fully decentralized with end-to-end encryption and video calls built by the people, not by big tech!
+              The open-source, non-profit European alternative to big tech’s messaging and video-call monopoly. End-to-end encrypted, decentralized, and easy to use for everyone.
             </p>
 
             <div className="max-w-lg flex flex-wrap">

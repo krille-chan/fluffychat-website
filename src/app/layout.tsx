@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "FluffyChat | Official Website",
-  description: "FluffyChat is messaging how it should be",
+  description: "FluffyChat Matrix Messenger. Your communication should be yours.",
 };
 
 export default function RootLayout({
