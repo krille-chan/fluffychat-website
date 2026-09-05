@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <div className="w-full">
-      <div className="w-full p-2 items-center justify-center flex bg-orange-100 border-b">
+      <div className="w-full p-2 items-center justify-center flex text-orange-800 bg-orange-100 border-b">
         <p>Every first Sunday of the month, we celebrate <a className="text-orange-900 underline hover:text-orange-950" href="https://di.day">Digital Independence Day</a>.</p>
       </div>
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
