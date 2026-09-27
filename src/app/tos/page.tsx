@@ -22,8 +22,9 @@ export default function TermsPage() {
 
       <article className={articleClassName}>
         <p>
-          FluffyChat is a client application for the Matrix messaging network. It
-          does not provide or operate any messaging servers.
+          FluffyChat is a client application for the Matrix messaging network.
+          Users are free to choose which homeserver to connect to, and the terms
+          of service of that homeserver govern their use of the service.
         </p>
         <p>
           FluffyChat may suggest or preconfigure certain servers for user
